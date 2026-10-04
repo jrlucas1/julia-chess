@@ -1,0 +1,30 @@
+[Event "Julia Chess Paired-Opening Benchmark"]
+[Site "Local API"]
+[Date "2026.10.03"]
+[Round "3.1"]
+[White "Julia"]
+[Black "Stockfish 19 (UCI_Elo 1320)"]
+[Result "1/2-1/2"]
+[FEN "rnbqkbnr/pp2pppp/3p4/2p5/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 3"]
+[SetUp "1"]
+[TimeControl "~3s/move Stockfish; Julia search budget 3.0s"]
+[Termination "Draw — benchmark adjudication at 120 plies after opening setup."]
+[Opening "Sicilian Defense"]
+
+3. d3 Bg4 4. d4 Bxf3 5. gxf3 Nf6 6. d5 a6 7. Bd3 b5 8. Be2 e5 9. Nd2 Nh5 10. a3 Nd7 11. Bd3 c4 12. Be2 Be7 13. Kf1 Nf4 14. Rb1 Nf8 15. Qe1 Qc8 16. h4 Qc7 17. Qd1 N8g6 18. Ra1 O-O 19. Qe1 Nxh4 20. Rh2 Bd8 21. Qd1 Qe7 22. Rb1 Rb8 23. Ra1 Bb6 24. a4 Rb7 25. axb5 axb5 26. Ra3 Bc5 27. Ra5 h6 28. Rh1 Qg5 29. Rh2 Rfb8 30. Nxc4 Nhg2 31. Na3 Kf8 32. Nxb5 Kg8 33. Bd2 h5 34. Bc3 Bb6 35. Ra1 Ne3+ 36. fxe3 Qg3 37. Rxh5 Nxh5 38. Nxd6 Qh2 39. Nc4 Ng3+ 40. Ke1 Rc8 41. Nxb6 Rxb6 42. Bxe5 Rg6 43. Bc3 Nxe2 44. Qxe2 Qg1+ 45. Kd2 Qxa1 46. f4 Qh1 47. Kd3 f5 48. exf5 Rg2 49. Qe1 Qh3 50. Qc1 Re8 51. Kc4 Qxf5 52. Kd4 Rc8 53. Qf1 Qh3 54. Qb1 Qh5 55. b3 Qg4 56. Bb4 Rg1 57. Qa2 Rd1+ 58. Ke5 Qh5+ 59. f5 g6 60. e4 g5 61. f6 g4+ 62. Kd6 Qf7 63. Ke5 1/2-1/2
+
+[Event "Julia Chess Paired-Opening Benchmark"]
+[Site "Local API"]
+[Date "2026.10.03"]
+[Round "3.2"]
+[White "Stockfish 19 (UCI_Elo 1320)"]
+[Black "Julia"]
+[Result "0-1"]
+[FEN "rnbqkb1r/pppp1ppp/5n2/4p3/2P5/3P4/PP2PPPP/RNBQKBNR b KQkq - 0 3"]
+[SetUp "1"]
+[TimeControl "~3s/move Stockfish; Julia search budget 3.0s"]
+[Termination "Julia wins — checkmate."]
+[Opening "Sicilian Defense"]
+
+3... d6 4. a3 Be7 5. Nf3 Nbd7 6. Qc2 Kf8 7. e4 h6 8. Bd2 Rb8 9. h3 Nb6 10. Nc3 Qd7 11. d4 Kg8 12. Be2 Ra8 13. Be3 exd4 14. Bxd4 a6 15. O-O Qe8 16. e5 dxe5 17. Nxe5 Rb8 18. b3 h5 19. Nf3 Ra8 20. Rae1 Be6 21. Bd3 Bxa3 22. Ng5 Rd8 23. Be3 Qd7 24. Be2 Bf5 25. Nce4 Nxe4 26. Qxe4 Bxe4 27. Rd1 Bd3 28. Bxd3 Kf8 29. Be4 Qxd1 30. Nxf7 Kxf7 31. Bd5+ Rxd5 32. Bxb6 Rd6 33. c5 Qd2 34. f3 Rg6 35. Rf2 Qd5 36. h4 cxb6 37. g3 Bxc5 38. g4 Qxf3 39. g5 Qxf2+ 40. Kh1 Qg1# 0-1
+

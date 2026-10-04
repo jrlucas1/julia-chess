@@ -1,0 +1,117 @@
+{
+  "started_at_utc": "2026-10-03T09:32:40.618291-03:00",
+  "deadline_utc": "2026-10-03T14:05:11+00:00",
+  "levels": [
+    1320,
+    1400,
+    1480,
+    1560
+  ],
+  "status": "deadline_reached",
+  "completed_pairs": [
+    {
+      "elo": 1320,
+      "opening_index": 1,
+      "sample_index": 1,
+      "score_fraction": 0.75,
+      "games": 2,
+      "json": "C:\\Users\\lmao\\Downloads\\jev-bot\\jev-bot\\xadrez\\rating_campaign_20261003_session2\\elo1320\\sample_001\\paired-stockfish19-elo1320-pairs1-1.json",
+      "pgn": "C:\\Users\\lmao\\Downloads\\jev-bot\\jev-bot\\xadrez\\rating_campaign_20261003_session2\\elo1320\\sample_001\\paired-stockfish19-elo1320-pairs1-1.pgn",
+      "completed_at_utc": "2026-10-03T09:40:53.220463-03:00"
+    },
+    {
+      "elo": 1400,
+      "opening_index": 1,
+      "sample_index": 1,
+      "score_fraction": 0.75,
+      "games": 2,
+      "json": "C:\\Users\\lmao\\Downloads\\jev-bot\\jev-bot\\xadrez\\rating_campaign_20261003_session2\\elo1400\\sample_001\\paired-stockfish19-elo1400-pairs1-1.json",
+      "pgn": "C:\\Users\\lmao\\Downloads\\jev-bot\\jev-bot\\xadrez\\rating_campaign_20261003_session2\\elo1400\\sample_001\\paired-stockfish19-elo1400-pairs1-1.pgn",
+      "completed_at_utc": "2026-10-03T12:49:53.042234+00:00"
+    },
+    {
+      "elo": 1480,
+      "opening_index": 1,
+      "sample_index": 1,
+      "score_fraction": 0.0,
+      "games": 2,
+      "json": "C:\\Users\\lmao\\Downloads\\jev-bot\\jev-bot\\xadrez\\rating_campaign_20261003_session2\\elo1480\\sample_001\\paired-stockfish19-elo1480-pairs1-1.json",
+      "pgn": "C:\\Users\\lmao\\Downloads\\jev-bot\\jev-bot\\xadrez\\rating_campaign_20261003_session2\\elo1480\\sample_001\\paired-stockfish19-elo1480-pairs1-1.pgn",
+      "completed_at_utc": "2026-10-03T12:57:59.692958+00:00"
+    },
+    {
+      "elo": 1560,
+      "opening_index": 1,
+      "sample_index": 1,
+      "score_fraction": 1.0,
+      "games": 2,
+      "json": "C:\\Users\\lmao\\Downloads\\jev-bot\\jev-bot\\xadrez\\rating_campaign_20261003_session2\\elo1560\\sample_001\\paired-stockfish19-elo1560-pairs1-1.json",
+      "pgn": "C:\\Users\\lmao\\Downloads\\jev-bot\\jev-bot\\xadrez\\rating_campaign_20261003_session2\\elo1560\\sample_001\\paired-stockfish19-elo1560-pairs1-1.pgn",
+      "completed_at_utc": "2026-10-03T13:03:54.014891+00:00"
+    },
+    {
+      "elo": 1320,
+      "opening_index": 2,
+      "sample_index": 2,
+      "score_fraction": 0.75,
+      "games": 2,
+      "json": "C:\\Users\\lmao\\Downloads\\jev-bot\\jev-bot\\xadrez\\rating_campaign_20261003_session2\\elo1320\\sample_002\\paired-stockfish19-elo1320-pairs2-2.json",
+      "pgn": "C:\\Users\\lmao\\Downloads\\jev-bot\\jev-bot\\xadrez\\rating_campaign_20261003_session2\\elo1320\\sample_002\\paired-stockfish19-elo1320-pairs2-2.pgn",
+      "completed_at_utc": "2026-10-03T13:11:51.514763+00:00"
+    },
+    {
+      "elo": 1400,
+      "opening_index": 2,
+      "sample_index": 2,
+      "score_fraction": 0.5,
+      "games": 2,
+      "json": "C:\\Users\\lmao\\Downloads\\jev-bot\\jev-bot\\xadrez\\rating_campaign_20261003_session2\\elo1400\\sample_002\\paired-stockfish19-elo1400-pairs2-2.json",
+      "pgn": "C:\\Users\\lmao\\Downloads\\jev-bot\\jev-bot\\xadrez\\rating_campaign_20261003_session2\\elo1400\\sample_002\\paired-stockfish19-elo1400-pairs2-2.pgn",
+      "completed_at_utc": "2026-10-03T13:18:22.464330+00:00"
+    },
+    {
+      "elo": 1480,
+      "opening_index": 2,
+      "sample_index": 2,
+      "score_fraction": 0.25,
+      "games": 2,
+      "json": "C:\\Users\\lmao\\Downloads\\jev-bot\\jev-bot\\xadrez\\rating_campaign_20261003_session2\\elo1480\\sample_002\\paired-stockfish19-elo1480-pairs2-2.json",
+      "pgn": "C:\\Users\\lmao\\Downloads\\jev-bot\\jev-bot\\xadrez\\rating_campaign_20261003_session2\\elo1480\\sample_002\\paired-stockfish19-elo1480-pairs2-2.pgn",
+      "completed_at_utc": "2026-10-03T13:23:37.308414+00:00"
+    },
+    {
+      "elo": 1560,
+      "opening_index": 2,
+      "sample_index": 2,
+      "score_fraction": 0.0,
+      "games": 2,
+      "json": "C:\\Users\\lmao\\Downloads\\jev-bot\\jev-bot\\xadrez\\rating_campaign_20261003_session2\\elo1560\\sample_002\\paired-stockfish19-elo1560-pairs2-2.json",
+      "pgn": "C:\\Users\\lmao\\Downloads\\jev-bot\\jev-bot\\xadrez\\rating_campaign_20261003_session2\\elo1560\\sample_002\\paired-stockfish19-elo1560-pairs2-2.pgn",
+      "completed_at_utc": "2026-10-03T13:31:36.449428+00:00"
+    },
+    {
+      "elo": 1320,
+      "opening_index": 3,
+      "sample_index": 3,
+      "score_fraction": 0.25,
+      "games": 2,
+      "json": "C:\\Users\\lmao\\Downloads\\jev-bot\\jev-bot\\xadrez\\rating_campaign_20261003_session2\\elo1320\\sample_003\\paired-stockfish19-elo1320-pairs3-3.json",
+      "pgn": "C:\\Users\\lmao\\Downloads\\jev-bot\\jev-bot\\xadrez\\rating_campaign_20261003_session2\\elo1320\\sample_003\\paired-stockfish19-elo1320-pairs3-3.pgn",
+      "completed_at_utc": "2026-10-03T13:39:56.251050+00:00"
+    },
+    {
+      "elo": 1400,
+      "opening_index": 3,
+      "sample_index": 3,
+      "score_fraction": 0.0,
+      "games": 2,
+      "json": "C:\\Users\\lmao\\Downloads\\jev-bot\\jev-bot\\xadrez\\rating_campaign_20261003_session2\\elo1400\\sample_003\\paired-stockfish19-elo1400-pairs3-3.json",
+      "pgn": "C:\\Users\\lmao\\Downloads\\jev-bot\\jev-bot\\xadrez\\rating_campaign_20261003_session2\\elo1400\\sample_003\\paired-stockfish19-elo1400-pairs3-3.pgn",
+      "completed_at_utc": "2026-10-03T13:46:10.389422+00:00"
+    }
+  ],
+  "current": null,
+  "updated_at_utc": "2026-10-03T13:46:10.389428+00:00",
+  "resumed_at_utc": "2026-10-03T12:43:10.051690+00:00",
+  "finished_at_utc": "2026-10-03T13:46:10.389873+00:00"
+}

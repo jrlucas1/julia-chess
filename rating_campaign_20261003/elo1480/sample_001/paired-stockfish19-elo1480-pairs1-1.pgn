@@ -1,0 +1,30 @@
+[Event "Julia Chess Paired-Opening Benchmark"]
+[Site "Local API"]
+[Date "2026.10.03"]
+[Round "1.1"]
+[White "Julia"]
+[Black "Stockfish 19 (UCI_Elo 1480)"]
+[Result "0-1"]
+[FEN "r1bqkbnr/pppp1ppp/2n5/4p3/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 2 3"]
+[SetUp "1"]
+[TimeControl "~3s/move Stockfish; Julia search budget 3.0s"]
+[Termination "Stockfish 19 wins — checkmate."]
+[Opening "Ruy Lopez"]
+
+3. d4 Nxd4 4. Nxd4 exd4 5. e5 d6 6. exd6 Nf6 7. Bg5 c6 8. Be2 Qxd6 9. Qc1 Bf5 10. Bf3 Qe5+ 11. Kd1 O-O-O 12. Bf4 Qb5 13. Re1 Bg4 14. Bg5 Bxf3+ 15. gxf3 h6 16. Bxf6 Bb4 17. Bxd8 Bxe1 18. Bh4 Re8 19. Qf4 Bb4 20. c3 dxc3 21. Nxc3 Bxc3 22. bxc3 g5 23. Qg4+ Kd8 24. Bxg5+ hxg5 25. Qd4+ Kc8 26. Kc2 Re2+ 27. Kd1 Qb2 28. Rc1 f6 29. a4 Re1+ 30. Kxe1 Qxc1+ 31. Ke2 f5 32. Qd3 b5 33. Qxf5+ Kd8 34. Qc5 bxa4 35. Qxc6 a3 36. Qd6+ Kc8 37. Qe5 Qc2+ 38. Ke3 Qb3 39. Ke4 Qc4+ 40. Qd4 Qxd4+ 41. cxd4 a5 42. Kd3 a2 43. Ke3 a1=Q 44. h4 gxh4 45. d5 h3 46. Kd2 Qe5 47. Kd1 Qxd5+ 48. Kc2 h2 49. Kb2 Qd4+ 50. Kc2 h1=Q 51. Kb3 Qhd1+ 52. Ka2 Q4a1# 0-1
+
+[Event "Julia Chess Paired-Opening Benchmark"]
+[Site "Local API"]
+[Date "2026.10.03"]
+[Round "1.2"]
+[White "Stockfish 19 (UCI_Elo 1480)"]
+[Black "Julia"]
+[Result "1/2-1/2"]
+[FEN "rnbqkb1r/pppp1ppp/5n2/4p3/4P3/2N5/PPPP1PPP/R1BQKBNR b KQkq - 2 3"]
+[SetUp "1"]
+[TimeControl "~3s/move Stockfish; Julia search budget 3.0s"]
+[Termination "Draw — benchmark adjudication at 120 plies after opening setup."]
+[Opening "Ruy Lopez"]
+
+3... d6 4. Be2 Qd7 5. Nf3 c5 6. Bc4 Qg4 7. h4 Be7 8. d3 Rf8 9. Nb5 Kd8 10. Qe2 Nc6 11. Bd2 a6 12. Nc3 Nb4 13. Bb3 c4 14. dxc4 Bd7 15. a3 Nxe4 16. Qxe4 Qxe4+ 17. Nxe4 f5 18. Ng3 f4 19. Ne4 Bf5 20. O-O-O Re8 21. axb4 Bxe4 22. Ba2 Kc7 23. Bc3 Rac8 24. c5 Ra8 25. cxd6+ Bxd6 26. Rxd6 Bxf3 27. gxf3 Kxd6 28. Rd1+ Kc7 29. Re1 Kc6 30. Rg1 Rad8 31. Bc4 Re7 32. Be2 Rh8 33. h5 Rhe8 34. b3 Kd5 35. Bb2 Rc8 36. Bd3 Rf8 37. c4+ Kc6 38. Ba3 Rfe8 39. Bxh7 Kc7 40. Be4 Rd8 41. b5 Rf7 42. b6+ Kxb6 43. Rg6+ Kc7 44. Kc2 Kc8 45. Rd6 Rfd7 46. Rd5 Kc7 47. Bb2 Rxd5 48. cxd5 Kd6 49. Kd3 Re8 50. Bc1 a5 51. Ba3+ Kd7 52. Bf5+ Kc7 53. Kc4 Rd8 54. Be6 b6 55. Bf7 Rc8 56. Bg6 Rd8 57. d6+ Rxd6 58. Bf5 Rd2 59. Bf8 Rxf2 60. Bxg7 Kd6 61. h6 b5+ 62. Kxb5 Kd5 63. Bf8 Rd2 1/2-1/2
+

@@ -1,0 +1,300 @@
+[Event "Julia Chess Paired-Opening Benchmark"]
+[Site "Local API"]
+[Date "2026.10.03"]
+[Round "41.1"]
+[White "Julia"]
+[Black "Stockfish 19 (UCI_Elo 1480)"]
+[Result "0-1"]
+[FEN "r1bqkb1r/pppp1ppp/2n2n2/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 4 4"]
+[SetUp "1"]
+[TimeControl "~3s/move Stockfish; Julia search budget 3.0s"]
+[Termination "Stockfish 19 wins — checkmate."]
+[Opening "Ruy Lopez Berlin Defense"]
+
+4. Nc3 Bb4 5. Ke2 Bxc3 6. dxc3 Nxe4 7. Qd3 Nf6 8. Bxc6 O-O 9. Bd5 c6 10. Bxc6 bxc6 11. Nxe5 Re8 12. Qd6 Re6 13. Qd3 Rxe5+ 14. Kf1 Re6 15. h4 a5 16. Qd4 d5 17. Be3 Re4 18. Qd2 Ng4 19. Re1 Nxe3+ 20. Rxe3 Qf8 21. Rg3 Qe7 22. f4 Rb8 23. b3 g6 24. Qf2 Bf5 25. Rh2 Qe6 26. Rd3 c5 27. Qd2 d4 28. b4 Qxa2 29. bxc5 dxc3 30. Rxc3 Rbe8 31. Qd1 Qa4 32. Kf2 Rxf4+ 33. Kg3 Rf1 34. Qxf1 Re4 35. Qd1 Qb4 36. Rb3 Qxc5 37. Rb8+ Kg7 38. Qa1+ Rd4 39. Kf2 f6 40. Kf1 Qd5 41. Qb2 Rf4+ 42. Ke2 Re4+ 43. Kf1 Qd1+ 44. Kf2 Qe1+ 45. Kf3 Bg4# 0-1
+
+[Event "Julia Chess Paired-Opening Benchmark"]
+[Site "Local API"]
+[Date "2026.10.03"]
+[Round "41.2"]
+[White "Stockfish 19 (UCI_Elo 1480)"]
+[Black "Julia"]
+[Result "1-0"]
+[FEN "rnbqk2r/pppp1ppp/5n2/4p3/1b2P3/2N2N2/PPPP1PPP/R1BQKB1R b KQkq - 4 4"]
+[SetUp "1"]
+[TimeControl "~3s/move Stockfish; Julia search budget 3.0s"]
+[Termination "Stockfish 19 wins — checkmate."]
+[Opening "Ruy Lopez Berlin Defense"]
+
+4... Nc6 5. Bd3 d5 6. Bb5 dxe4 7. Nxe4 Nxe4 8. Qe2 Nc5 9. a3 Qd6 10. O-O Bxa3 11. Bxc6+ bxc6 12. Nxe5 Be6 13. bxa3 Rd8 14. a4 Qd4 15. Ra3 Rg8 16. Re1 Qd5 17. Re3 Rd6 18. Nf3 Qf5 19. d4 Nxa4 20. Ne5 Rxd4 21. Rf3 Qh5 22. Nxf7 Qg4 23. Qe3 Nc5 24. Bd2 h5 25. Bb4 Rxb4 26. Qxc5 Rc4 27. Qxa7 Rf4 28. h3 Qf5 29. Rxf4 Qxf4 30. Ne5 Qg5 31. Nxc6 Kd7 32. c4 Rf8 33. Ne5+ Kd8 34. h4 Qf5 35. Nc6+ Ke8 36. f3 Qf6 37. Qxc7 g6 38. c5 Rh8 39. Rb1 Bb3 40. Rxb3 Qa1+ 41. Kh2 Qa7 42. Nxa7 Rf8 43. Re3# 1-0
+
+[Event "Julia Chess Paired-Opening Benchmark"]
+[Site "Local API"]
+[Date "2026.10.03"]
+[Round "42.1"]
+[White "Julia"]
+[Black "Stockfish 19 (UCI_Elo 1480)"]
+[Result "0-1"]
+[FEN "r1bqkbnr/1ppp1ppp/p1n5/1B2p3/4P3/5N2/PPPP1PPP/RNBQK2R w KQkq - 0 4"]
+[SetUp "1"]
+[TimeControl "~3s/move Stockfish; Julia search budget 3.0s"]
+[Termination "Stockfish 19 wins — checkmate."]
+[Opening "Ruy Lopez Morphy Defense"]
+
+4. Ba4 Nge7 5. Bb3 d5 6. d3 f6 7. Nbd2 dxe4 8. dxe4 g5 9. Rf1 Qd7 10. Ba4 Ng6 11. Rh1 h5 12. h3 b5 13. Bb3 Nf4 14. Rh2 Bb7 15. c4 O-O-O 16. a3 Na5 17. h4 Bc5 18. cxb5 g4 19. Nxe5 fxe5 20. bxa6 Ba8 21. Bc2 Ba7 22. a4 Rhf8 23. g3 Qf7 24. gxf4 Qxf4 25. Rg2 Bxf2+ 26. Kf1 Bc5+ 27. Ke1 Rxd2 28. Qe2 Rxe2+ 29. Kd1 Qf1# 0-1
+
+[Event "Julia Chess Paired-Opening Benchmark"]
+[Site "Local API"]
+[Date "2026.10.03"]
+[Round "42.2"]
+[White "Stockfish 19 (UCI_Elo 1480)"]
+[Black "Julia"]
+[Result "1/2-1/2"]
+[FEN "rnbqk2r/pppp1ppp/5n2/4p3/1b2P3/P1N5/1PPP1PPP/R1BQKBNR b KQkq - 0 4"]
+[SetUp "1"]
+[TimeControl "~3s/move Stockfish; Julia search budget 3.0s"]
+[Termination "Draw — benchmark adjudication at 120 plies after opening setup."]
+[Opening "Ruy Lopez Morphy Defense"]
+
+4... Ba5 5. Nf3 d6 6. d3 Bd7 7. g3 Nc6 8. b4 Bb6 9. Na4 Bd4 10. Rb1 a6 11. Bg5 Kf8 12. Bg2 Qe8 13. O-O Qe6 14. c3 Ba7 15. d4 exd4 16. Re1 Qg4 17. h3 Qh5 18. e5 dxe5 19. Bh4 Qf5 20. b5 dxc3 21. Nxc3 axb5 22. g4 Qe6 23. Bg3 Bb6 24. Nxe5 Nxe5 25. Bxe5 Re8 26. Nxb5 Qa2 27. Rb2 Qe6 28. Nd6 Ra8 29. Nf5 Qc4 30. Bxb7 Re8 31. Rc2 Qa4 32. Bxf6 Bxf5 33. Be7+ Rxe7 34. Rxe7 Bxf2+ 35. Kg2 Qd4 36. Qxd4 Bxd4 37. Rexc7 Bxc2 38. Rc8+ Ke7 39. Rxh8 Ke6 40. Rc8 Bd3 41. Rd8 Ke5 42. Kf3 Bc4 43. Rg8 Kd6 44. Rd8+ Ke5 45. Ra8 Bc3 46. Rc8 Kd4 47. a4 Ba5 48. Rg8 Bb3 49. Ra8 Bc7 50. Kg2 Be5 51. h4 Ke3 52. Bc6 Bd6 53. a5 Kf4 54. a6 Bc5 55. Rb8 Bc2 56. Rd8 f6 57. Bf3 Bb3 58. Bd5 Bd1 59. Rd7 h5 60. gxh5 f5 61. Rc7 Be3 62. Re7 Bb6 63. a7 Bxa7 64. Rxa7 Ke3 1/2-1/2
+
+[Event "Julia Chess Paired-Opening Benchmark"]
+[Site "Local API"]
+[Date "2026.10.03"]
+[Round "43.1"]
+[White "Julia"]
+[Black "Stockfish 19 (UCI_Elo 1480)"]
+[Result "1/2-1/2"]
+[FEN "r1bqk1nr/pppp1ppp/2n5/4p3/1bB1P3/5N2/P1PP1PPP/RNBQK2R w KQkq - 0 5"]
+[SetUp "1"]
+[TimeControl "~3s/move Stockfish; Julia search budget 3.0s"]
+[Termination "Draw — benchmark adjudication at 120 plies after opening setup."]
+[Opening "Evans Gambit Accepted"]
+
+5. a3 Be7 6. d4 exd4 7. e5 Kf8 8. c3 Ke8 9. Qd3 Rb8 10. Bb2 d6 11. Qd2 Nxe5 12. Qe2 Nxc4 13. Qxc4 b5 14. Qxd4 Bf6 15. Qd2 a6 16. Qd3 d5 17. Qc2 Qe7+ 18. Kd1 Be6 19. Qd3 g6 20. Kc1 Nh6 21. Qf1 Rc8 22. Kd1 Kf8 23. Qe2 c5 24. Kc1 Qd6 25. Kc2 Bf5+ 26. Kd1 d4 27. Qd2 Bg7 28. cxd4 Kg8 29. Ke1 Re8+ 30. Kf1 Rc8 31. Ke1 cxd4 32. Nxd4 Re8+ 33. Kf1 Rd8 34. Nxf5 Nxf5 35. Bxg7 Qb6 36. Bxh8 Rxd2 37. Nxd2 Kxh8 38. Ke1 Nd4 39. Kf1 Qc7 40. Rg1 Qc2 41. Ke1 Qd3 42. Kd1 Nb3 43. Ra2 Nxd2 44. Kc1 Nc4 45. h3 Nxa3 46. Rxa3 Qxa3+ 47. Kd2 b4 48. Ke2 Qa2+ 49. Kf3 Kg7 50. g3 Qd5+ 51. Ke2 Qc4+ 52. Kd1 Qd3+ 53. Kc1 Qf3 54. Rf1 Qe2 55. Rd1 Qb5 56. Kc2 h6 57. Kd2 a5 58. f4 a4 59. Rb1 b3 60. Rc1 a3 61. Re1 b2 62. Rd1 Qb4+ 63. Ke3 a2 64. Kf2 Qc5+ 65. Ke2 1/2-1/2
+
+[Event "Julia Chess Paired-Opening Benchmark"]
+[Site "Local API"]
+[Date "2026.10.03"]
+[Round "43.2"]
+[White "Stockfish 19 (UCI_Elo 1480)"]
+[Black "Julia"]
+[Result "1/2-1/2"]
+[FEN "rnbqk2r/p1pp1ppp/5n2/1Bb1p3/4P3/2N5/PPPP1PPP/R1BQK1NR b KQkq - 0 5"]
+[SetUp "1"]
+[TimeControl "~3s/move Stockfish; Julia search budget 3.0s"]
+[Termination "Draw — benchmark adjudication at 120 plies after opening setup."]
+[Opening "Evans Gambit Accepted"]
+
+5... Bb7 6. d3 Bc6 7. Bxc6 dxc6 8. h3 Rf8 9. Nce2 Nxe4 10. dxe4 Bxf2+ 11. Kxf2 Qxd1 12. Nc3 Qxc2+ 13. Nge2 c5 14. Rd1 f5 15. Rd2 fxe4+ 16. Ke3 Qd3+ 17. Rxd3 exd3 18. Ng1 c4 19. b3 Rf6 20. Nd5 Rc6 21. Ba3 Kd7 22. Bb2 Ke6 23. bxc4 Rxc4 24. Nc3 Rb4 25. Rb1 Nc6 26. Ba3 Rxb1 27. Nxb1 Re8 28. Nd2 Rd8 29. Bb2 a6 30. Ngf3 Rd5 31. Bc3 h5 32. Nb3 g6 33. Ke4 Kd6 34. Ne1 g5 35. g3 h4 36. g4 a5 37. Nf3 a4 38. Nc1 d2 39. Bxd2 a3 40. Bxg5 Rb5 41. Be3 Ke6 42. Nd3 Rb2 43. Nc5+ Kf7 44. Kd5 Nb4+ 45. Kc4 Ke8 46. Ne6 Nc6 47. Bc5 Kf7 48. Neg5+ Kg6 49. Bxa3 Rxa2 50. Bf8 Rf2 51. Kd3 Rb2 52. Kc4 Kf6 53. Kd5 Rb6 54. Ne4+ Kf7 55. Bc5 Ra6 56. Neg5+ Kf6 57. Ne4+ Kf7 58. Nxh4 Nd8 59. Ng5+ Kf6 60. Nhf3 c6+ 61. Kc4 Ra5 62. Bb4 Rd5 63. Ne4+ Kg7 64. Bc3 Nf7 65. Nfg5 Kf8 1/2-1/2
+
+[Event "Julia Chess Paired-Opening Benchmark"]
+[Site "Local API"]
+[Date "2026.10.03"]
+[Round "44.1"]
+[White "Julia"]
+[Black "Stockfish 19 (UCI_Elo 1480)"]
+[Result "0-1"]
+[FEN "r1bqkbnr/pppp1ppp/2n5/8/3pP3/5N2/PPP2PPP/RNBQKB1R w KQkq - 0 4"]
+[SetUp "1"]
+[TimeControl "~3s/move Stockfish; Julia search budget 3.0s"]
+[Termination "Stockfish 19 wins — checkmate."]
+[Opening "Scotch Gambit"]
+
+4. Nxd4 Bc5 5. Nf5 Qf6 6. Qd5 d6 7. f4 Bxf5 8. exf5 Nge7 9. Qd3 O-O 10. Kd2 Rfe8 11. a3 Nxf5 12. Qc3 Qe7 13. Bc4 Qh4 14. g3 Qg4 15. h3 Qg6 16. g4 d5 17. Bb3 Nd6 18. Bxd5 Rad8 19. Kd1 Ne4 20. Qb3 Nf2+ 21. Kd2 Qe4 22. Qg3 Bb4+ 23. Qc3 Qd4# 0-1
+
+[Event "Julia Chess Paired-Opening Benchmark"]
+[Site "Local API"]
+[Date "2026.10.03"]
+[Round "44.2"]
+[White "Stockfish 19 (UCI_Elo 1480)"]
+[Black "Julia"]
+[Result "1-0"]
+[FEN "rnbqkb1r/ppp2ppp/5n2/3Pp3/8/2N5/PPPP1PPP/R1BQKBNR b KQkq - 0 4"]
+[SetUp "1"]
+[TimeControl "~3s/move Stockfish; Julia search budget 3.0s"]
+[Termination "Stockfish 19 wins — checkmate."]
+[Opening "Scotch Gambit"]
+
+4... Nxd5 5. Nxd5 Qxd5 6. Nf3 Bb4 7. c3 Bd6 8. Be2 Nc6 9. Qb3 Qxb3 10. axb3 Bd7 11. d3 h6 12. h3 a6 13. Nd2 Rf8 14. b4 b5 15. Bf3 f6 16. Ne4 Ke7 17. Bd2 Rh8 18. Ra3 Rhe8 19. Nxd6 Kxd6 20. Ke2 Be6 21. Rha1 Red8 22. Rxa6 Rxa6 23. Rxa6 Bd5 24. Be4 Rh8 25. Bxd5 Kxd5 26. c4+ bxc4 27. dxc4+ Kd4 28. Rxc6 f5 29. Rxc7 g6 30. f3 Re8 31. g3 Rh8 32. Bc3# 1-0
+
+[Event "Julia Chess Paired-Opening Benchmark"]
+[Site "Local API"]
+[Date "2026.10.03"]
+[Round "45.1"]
+[White "Julia"]
+[Black "Stockfish 19 (UCI_Elo 1480)"]
+[Result "0-1"]
+[FEN "rnbqkbnr/ppp2ppp/8/3p4/3P4/8/PP2PPPP/RNBQKBNR w KQkq - 0 4"]
+[SetUp "1"]
+[TimeControl "~3s/move Stockfish; Julia search budget 3.0s"]
+[Termination "Stockfish 19 wins — checkmate."]
+[Opening "Queens Gambit Exchange"]
+
+4. Qa4+ c6 5. Nc3 Nf6 6. Nf3 h6 7. e3 a5 8. Bd3 Be7 9. e4 dxe4 10. Nxe4 Nxe4 11. Bxe4 O-O 12. Qc4 Be6 13. Qc2 Re8 14. Bf5 Bb4+ 15. Kf1 Qd5 16. Bxe6 Qxe6 17. g3 Qh3+ 18. Kg1 a4 19. Rb1 Nd7 20. Qc4 Qf5 21. Ra1 Qxf3 22. Qxb4 Re2 23. Be3 b6 24. Rb1 Nf6 25. Qxb6 Ng4 26. Qb7 Nxf2 27. Qxa8+ Kh7 28. Kf1 Nxh1+ 29. Kg1 Qg2# 0-1
+
+[Event "Julia Chess Paired-Opening Benchmark"]
+[Site "Local API"]
+[Date "2026.10.03"]
+[Round "45.2"]
+[White "Stockfish 19 (UCI_Elo 1480)"]
+[Black "Julia"]
+[Result "1-0"]
+[FEN "rnbqkbnr/pp2pppp/8/3p4/3P4/8/PPP2PPP/RNBQKBNR b KQkq - 0 4"]
+[SetUp "1"]
+[TimeControl "~3s/move Stockfish; Julia search budget 3.0s"]
+[Termination "Stockfish 19 wins — checkmate."]
+[Opening "Queens Gambit Exchange"]
+
+4... e6 5. Be2 Nc6 6. c3 Bd6 7. Nf3 Qd7 8. O-O Kf8 9. Bd3 Nf6 10. Qe2 Qe8 11. Re1 Qd7 12. a4 Qd8 13. b4 Qd7 14. Nbd2 h6 15. b5 Ne7 16. c4 Rb8 17. Bb2 Ra8 18. g3 Rb8 19. Ne5 Qe8 20. a5 b6 21. Rec1 Rb7 22. axb6 axb6 23. Ra8 Bb8 24. Ba3 Ng8 25. cxd5 exd5 26. Re1 Be6 27. Qf3 f5 28. Nc6 Kf7 29. Bc2 Rh7 30. Ne5+ Kf6 31. Ndc4 Bc8 32. Ng4+ Kg5 33. Bc1+ Kg6 34. Nge5+ Kf6 35. Ng4+ Kg6 36. Nce5+ Bxe5 37. Nxe5+ Kf6 38. Bxf5 Bxf5 39. Rxe8 g6 40. g4 Kg7 41. gxf5 gxf5 42. Qh5 Kh8 43. Bxh6 Rb8 44. Rxb8 Nc6 45. Ng6# 1-0
+
+[Event "Julia Chess Paired-Opening Benchmark"]
+[Site "Local API"]
+[Date "2026.10.03"]
+[Round "46.1"]
+[White "Julia"]
+[Black "Stockfish 19 (UCI_Elo 1480)"]
+[Result "1/2-1/2"]
+[FEN "rnbqkb1r/ppppp2p/5np1/5p2/2PP4/6P1/PP2PP1P/RNBQKBNR w KQkq - 0 4"]
+[SetUp "1"]
+[TimeControl "~3s/move Stockfish; Julia search budget 3.0s"]
+[Termination "Draw — benchmark adjudication at 120 plies after opening setup."]
+[Opening "Dutch Leningrad"]
+
+4. Nc3 c6 5. Qa4 Na6 6. Bg5 Bg7 7. Nh3 Ne4 8. Be3 c5 9. Nxe4 cxd4 10. Nhg5 dxe3 11. Ne6 Qb6 12. Nxg7+ Kf8 13. Qb5 fxe4 14. fxe3 Kxg7 15. Bg2 Nc5 16. O-O-O h5 17. b4 d6 18. bxc5 Qxc5 19. Kd2 Qxb5 20. cxb5 Bf5 21. Rhf1 d5 22. Rg1 Kf6 23. Rc1 Ke6 24. Rge1 Rhc8 25. Rh1 Kd7 26. Rxc8 Rxc8 27. Rd1 Rc5 28. Rb1 Ke6 29. a4 Kd7 30. Rb3 Rc4 31. h3 Kd6 32. Rb2 Bd7 33. h4 Rxa4 34. Ke1 Ra5 35. Kf1 Rxb5 36. Ra2 Rb1+ 37. Kf2 a6 38. Rd2 Kc6 39. Rd4 Rc1 40. Rb4 b5 41. Rb2 a5 42. Rd2 Be6 43. Rb2 a4 44. Ra2 Bd7 45. Rb2 Kb6 46. Rd2 Be6 47. Rb2 Kc5 48. Ra2 Kb4 49. Rd2 Kb3 50. Rd4 Kc3 51. Bxe4 dxe4 52. Rxe4 Bc4 53. Re5 a3 54. Rxe7 a2 55. Ra7 b4 56. Ra4 a1=Q 57. Rxa1 Rxa1 58. g4 b3 59. e4 b2 60. Kg3 b1=Q 61. Kf3 Ra8 62. Kf4 Qc1+ 63. e3 Ra3 64. gxh5 1/2-1/2
+
+[Event "Julia Chess Paired-Opening Benchmark"]
+[Site "Local API"]
+[Date "2026.10.03"]
+[Round "46.2"]
+[White "Stockfish 19 (UCI_Elo 1480)"]
+[Black "Julia"]
+[Result "1-0"]
+[FEN "rnbqkbnr/pp2pp1p/6p1/2pp4/5P2/5NP1/PPPPP2P/RNBQKB1R b KQkq - 0 4"]
+[SetUp "1"]
+[TimeControl "~3s/move Stockfish; Julia search budget 3.0s"]
+[Termination "Stockfish 19 wins — checkmate."]
+[Opening "Dutch Leningrad"]
+
+4... Nc6 5. Bg2 e6 6. c4 dxc4 7. Na3 c3 8. O-O cxb2 9. Bxb2 f6 10. d4 g5 11. fxg5 a6 12. e3 Qe7 13. dxc5 Kf7 14. gxf6 Qxc5 15. Nc4 Nxf6 16. Ng5+ Qxg5 17. Rxf6+ Qxf6 18. Nd6+ Ke7 19. Nxc8+ Rxc8 20. Qb3 e5 21. Rf1 Qd6 22. Ba3 Kd8 23. Bxd6 Bxd6 24. Be4 Kc7 25. Rf7+ Ne7 26. Qxb7+ Kd8 27. a4 Bc5 28. Qxa6 Ke8 29. Rf3 Kd7 30. Qh6 Ra8 31. Rf7 Bd6 32. Qh3+ Kc7 33. Rf1 Nc6 34. Rc1 Rxa4 35. Rxc6+ Kb8 36. Rb6+ Ka7 37. Qd7+ Kxb6 38. Qxd6+ Ka5 39. Qxe5+ Kb6 40. Qd6+ Ka5 41. Qc5+ Ka6 42. Bd3+ Kb7 43. Qb5+ Kc7 44. Qxa4 Rf8 45. Qa5+ Kd7 46. Bb5+ Ke6 47. Qc7 Kf6 48. Bc4 Kg6 49. Qe5 Rf6 50. Qe7 Rf5 51. Bd3 h5 52. Kg2 h4 53. gxh4 Kh5 54. Bxf5 Kh6 55. Qg5# 1-0
+
+[Event "Julia Chess Paired-Opening Benchmark"]
+[Site "Local API"]
+[Date "2026.10.03"]
+[Round "47.1"]
+[White "Julia"]
+[Black "Stockfish 19 (UCI_Elo 1480)"]
+[Result "1-0"]
+[FEN "rnbqk2r/ppppppbp/5np1/8/3P4/5NP1/PPP1PP1P/RNBQKB1R w KQkq - 1 4"]
+[SetUp "1"]
+[TimeControl "~3s/move Stockfish; Julia search budget 3.0s"]
+[Termination "Julia wins — checkmate."]
+[Opening "Kings Indian Fianchetto"]
+
+4. Bg5 d5 5. Nc3 c6 6. Qd2 b5 7. Bh6 Ne4 8. Nxe4 Bf8 9. Nc5 e5 10. Bxf8 Nd7 11. Nxd7 Qxd7 12. Bg7 g5 13. Nxe5 Qb7 14. Bxh8 b4 15. Qd3 f5 16. e3 a5 17. Be2 b3 18. Qxb3 Qb4+ 19. Qxb4 Bd7 20. Qd6 f4 21. Bh5+ Kd8 22. Qxd7# 1-0
+
+[Event "Julia Chess Paired-Opening Benchmark"]
+[Site "Local API"]
+[Date "2026.10.03"]
+[Round "47.2"]
+[White "Stockfish 19 (UCI_Elo 1480)"]
+[Black "Julia"]
+[Result "1/2-1/2"]
+[FEN "rnbqkb1r/ppp1pp1p/5np1/3p4/8/5NP1/PPPPPPBP/RNBQK2R b KQkq - 1 4"]
+[SetUp "1"]
+[TimeControl "~3s/move Stockfish; Julia search budget 3.0s"]
+[Termination "Draw — benchmark adjudication at 120 plies after opening setup."]
+[Opening "Kings Indian Fianchetto"]
+
+4... Bg4 5. h3 Bd7 6. d4 Bg7 7. Be3 Be6 8. O-O Qd6 9. a4 Nc6 10. Nc3 O-O 11. Ng5 Rad8 12. Nxe6 Qxe6 13. Bg5 Qd6 14. a5 a6 15. Bf4 Qd7 16. Na4 e6 17. Nc5 Qe8 18. Nxb7 Ra8 19. c3 Qc8 20. Nc5 Re8 21. e4 h6 22. e5 Nh7 23. b4 Nf8 24. Re1 Qd8 25. Be3 Qc8 26. Nd3 Qd8 27. h4 Qd7 28. Qc1 Rad8 29. Bxh6 Ra8 30. Bf1 Qc8 31. Nc5 Ra7 32. Qd2 Ra8 33. Bd3 Nh7 34. Bxg7 Kxg7 35. f4 Nf8 36. h5 Ra7 37. Bc2 Qd8 38. Re2 Qb8 39. hxg6 fxg6 40. Rf1 Kh8 41. Rg2 Kg7 42. g4 Kh8 43. Qe1 Kg8 44. Bb3 Kh8 45. Qd2 Qd8 46. Rh2+ Kg7 47. f5 exf5 48. Bxd5 Qxd5 49. e6 Nxe6 50. Qe3 Kf7 51. gxf5 gxf5 52. Rh7+ Kg8 53. Qh6 Re7 54. Rxe7 Nxe7 55. Nxe6 Kf7 56. Re1 Ke8 57. Qh8+ Kd7 58. Qd8+ Kc6 59. Qxe7 Qd6 60. Qh4 Qd5 61. Qe7 Qd6 62. Nd8+ Kb5 63. Qe2+ Ka4 64. Ra1+ Kb3 1/2-1/2
+
+[Event "Julia Chess Paired-Opening Benchmark"]
+[Site "Local API"]
+[Date "2026.10.03"]
+[Round "48.1"]
+[White "Julia"]
+[Black "Stockfish 19 (UCI_Elo 1480)"]
+[Result "0-1"]
+[FEN "rnbqkbnr/pp3ppp/4p3/2pp4/4P3/3P4/PPPN1PPP/R1BQKBNR w KQkq - 0 4"]
+[SetUp "1"]
+[TimeControl "~3s/move Stockfish; Julia search budget 3.0s"]
+[Termination "Stockfish 19 wins — checkmate."]
+[Opening "Kings Indian Attack"]
+
+4. e5 Qc7 5. f4 Nh6 6. Ngf3 Bd7 7. Ng5 Nf5 8. Ke2 f6 9. Ngf3 Nc6 10. a3 Be7 11. Nb3 c4 12. dxc4 O-O-O 13. cxd5 fxe5 14. dxc6 Bxc6 15. Bd2 g5 16. Nxe5 gxf4 17. Nxc6 Qxc6 18. Qc1 Bh4 19. c4 Rhg8 20. g3 Bxg3 21. hxg3 Nxg3+ 22. Kd1 Qxh1 23. Kc2 Qe4+ 24. Kc3 Nxf1 25. Qxf1 Rg3+ 26. Kb4 a5+ 27. Kxa5 Qe5+ 28. Ka4 Rxb3 29. Bc1 Rb6 30. Qxf4 Qe2 31. Qh4 Qc2+ 32. Ka5 Qb3 33. Qf4 Ra6# 0-1
+
+[Event "Julia Chess Paired-Opening Benchmark"]
+[Site "Local API"]
+[Date "2026.10.03"]
+[Round "48.2"]
+[White "Stockfish 19 (UCI_Elo 1480)"]
+[Black "Julia"]
+[Result "1/2-1/2"]
+[FEN "r1bqkbnr/pppn1ppp/3p4/4p3/2PP4/4P3/PP3PPP/RNBQKBNR b KQkq - 0 4"]
+[SetUp "1"]
+[TimeControl "~3s/move Stockfish; Julia search budget 3.0s"]
+[Termination "Draw — benchmark adjudication at 120 plies after opening setup."]
+[Opening "Kings Indian Attack"]
+
+4... Qf6 5. Ne2 exd4 6. g3 d3 7. Ng1 Nc5 8. Bg2 Be6 9. Nf3 Kd7 10. Nd4 Qg5 11. b4 Bxc4 12. f4 Qf6 13. Nd2 d5 14. O-O Ne6 15. Nxc4 dxc4 16. Qa4+ c6 17. Bb2 Kc7 18. Qa5+ Kc8 19. Rac1 Ne7 20. b5 Kb8 21. Rfd1 b6 22. Qa4 Nc5 23. Qxc4 Kc7 24. bxc6 a6 25. Qb4 a5 26. Qc4 Qh6 27. Rxd3 Nxd3 28. Nb5+ Kc8 29. Qxd3 Qe6 30. c7 Qd7 31. Qxd7+ Kxd7 32. Bb7 Rc8 33. Kf2 h6 34. a4 Ke6 35. e4 f5 36. Kg2 fxe4 37. Rd1 Rxc7 38. Rd6+ Kf7 39. Bxe4 Rc4 40. Rxb6 Rb4 41. Be5 Ke8 42. Bd3 Kd8 43. Ra6 Rxa4 44. Ra8+ Kd7 45. Nc3 Ra3 46. h4 Kc6 47. Rd8 Rb3 48. h5 Rb4 49. Rd6+ Kc5 50. Ne4+ Rxe4 51. Bxe4 Kb4 52. Rb6+ Kc4 53. Rb8 Kc5 54. Ra8 a4 55. Bb2 Kc4 56. Ba3 Nd5 57. Rxf8 Kd4 58. Bb2+ Kxe4 59. Rxh8 Kf5 60. Kh3 g5 61. hxg6 Kxg6 62. Bd4 Kf7 63. f5 Ke7 64. Ra8 Kd7 1/2-1/2
+
+[Event "Julia Chess Paired-Opening Benchmark"]
+[Site "Local API"]
+[Date "2026.10.03"]
+[Round "49.1"]
+[White "Julia"]
+[Black "Stockfish 19 (UCI_Elo 1480)"]
+[Result "0-1"]
+[FEN "rnbqkbnr/ppp1pppp/8/8/3Pp3/8/PPP2PPP/RNBQKBNR w KQkq - 0 3"]
+[SetUp "1"]
+[TimeControl "~3s/move Stockfish; Julia search budget 3.0s"]
+[Termination "Stockfish 19 wins — checkmate."]
+[Opening "Blackmar-Diemer Gambit"]
+
+3. Bb5+ Nd7 4. Be3 Nf6 5. d5 a6 6. Bxd7+ Nxd7 7. Qd2 f5 8. Ke2 Nf6 9. Bd4 Qd6 10. Bxf6 Qxf6 11. Qc3 Qd6 12. Qg3 f4 13. Qb3 b5 14. a3 e5 15. Nh3 h6 16. a4 Qg6 17. axb5 Bd6 18. Kf1 e3 19. fxe3 O-O 20. exf4 Bxh3 21. Qxh3 Rxf4+ 22. Ke1 Qxc2 23. Nd2 Bb4 24. Qc3 Qf5 25. Qc6 Qd3 26. Qc1 Rd8 27. bxa6 Rdf8 28. Qc3 Bxc3 29. bxc3 Rf2 30. Nf3 Qe2# 0-1
+
+[Event "Julia Chess Paired-Opening Benchmark"]
+[Site "Local API"]
+[Date "2026.10.03"]
+[Round "49.2"]
+[White "Stockfish 19 (UCI_Elo 1480)"]
+[Black "Julia"]
+[Result "1-0"]
+[FEN "rnbqkbnr/ppp2ppp/8/3pP3/8/8/PPP1PPPP/RNBQKBNR b KQkq - 0 3"]
+[SetUp "1"]
+[TimeControl "~3s/move Stockfish; Julia search budget 3.0s"]
+[Termination "Stockfish 19 wins — checkmate."]
+[Opening "Blackmar-Diemer Gambit"]
+
+3... Bb4+ 4. Nd2 Ne7 5. c3 Bc5 6. Ngf3 Bb6 7. Nb3 h6 8. Bf4 Ng6 9. e3 Rg8 10. Qc2 Nc6 11. Bg3 Qd7 12. Bd3 Nf8 13. a4 a6 14. Nbd4 Rh8 15. h3 Rg8 16. b4 Ke7 17. Nh4 Kd8 18. Nhf3 Ke7 19. Rc1 Rb8 20. e4 Ke8 21. Rd1 Ne7 22. a5 dxe4 23. e6 Nxe6 24. axb6 exf3 25. Nxf3 Qc6 26. bxc7 Nxc7 27. Nd4 Qd7 28. Be4 Ra8 29. Nf3 Ncd5 30. O-O f5 31. Bxd5 Rf8 32. Rfe1 g5 33. Bh2 a5 34. Qa2 axb4 35. Qe2 bxc3 36. Bc4 Ra1 37. Rxa1 Qd8 38. Rad1 Bd7 39. Qe5 c2 40. Rc1 g4 41. Nd2 Ba4 42. Qe2 b6 43. h4 Rh8 44. Bf4 Qd7 45. Qe5 Rh7 46. Bg8 Qc8 47. Bxh7 Qc5 48. Bg6+ Kd7 49. Qb8 Nc8 50. Rxc2 Qxc2 51. Be8+ Kd8 52. Bxa4 Qc4 53. Re8# 1-0
+
+[Event "Julia Chess Paired-Opening Benchmark"]
+[Site "Local API"]
+[Date "2026.10.03"]
+[Round "50.1"]
+[White "Julia"]
+[Black "Stockfish 19 (UCI_Elo 1480)"]
+[Result "1-0"]
+[FEN "rnbqkb1r/ppp1pp1p/6p1/3n4/3P4/2N5/PP2PPPP/R1BQKBNR w KQkq - 0 5"]
+[SetUp "1"]
+[TimeControl "~3s/move Stockfish; Julia search budget 3.0s"]
+[Termination "Julia wins — checkmate."]
+[Opening "Grunfeld Exchange Variation"]
+
+5. e4 Nf6 6. Nf3 Bg7 7. e5 Nd5 8. Nxd5 c6 9. Nf4 Bh6 10. Qb3 Bxf4 11. Bxf4 Qb6 12. Kd2 h6 13. Ke2 Bf5 14. Re1 g5 15. Be3 Na6 16. Kd1 Nb4 17. Kd2 g4 18. a3 a5 19. Nh4 Be6 20. d5 Qd8 21. axb4 Bxd5 22. Qd3 Be4 23. Qxd8+ Rxd8+ 24. Kc1 g3 25. hxg3 axb4 26. Nf3 Rd5 27. Bg5 Bxf3 28. gxf3 b3 29. Rxh6 Kd7 30. Bh3+ Kc7 31. Rxh8 f6 32. Rc8+ Kb6 33. exf6 Rxg5 34. f7 Rc5+ 35. Kb1 Rc1+ 36. Rxc1 Ka5 37. Ra8+ Kb5 38. f8=Q Kb6 39. Qxe7 Kb5 40. Qc5# 1-0
+
+[Event "Julia Chess Paired-Opening Benchmark"]
+[Site "Local API"]
+[Date "2026.10.03"]
+[Round "50.2"]
+[White "Stockfish 19 (UCI_Elo 1480)"]
+[Black "Julia"]
+[Result "1-0"]
+[FEN "r1bqkbnr/pp2pppp/2n5/3p4/3N4/6P1/PPP1PP1P/RNBQKB1R b KQkq - 0 5"]
+[SetUp "1"]
+[TimeControl "~3s/move Stockfish; Julia search budget 3.0s"]
+[Termination "Stockfish 19 wins — checkmate."]
+[Opening "Grunfeld Exchange Variation"]
+
+5... Qd6 6. Nxc6 Qxc6 7. Bg2 Qc5 8. Qxd5 Qb6 9. Na3 Qd8 10. Qb3 Qc7 11. Nc4 h6 12. Bf4 Qd7 13. O-O a5 14. Ne5 Qf5 15. Rfd1 g5 16. Bh3 e6 17. Qa4+ Ke7 18. Rd7+ Ke8 19. Rxb7+ Kd8 20. Rd1+ Bd6 21. Rxd6+ Bd7 22. Qxd7# 1-0
+

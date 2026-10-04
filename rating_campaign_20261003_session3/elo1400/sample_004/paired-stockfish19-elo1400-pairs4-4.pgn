@@ -1,0 +1,30 @@
+[Event "Julia Chess Paired-Opening Benchmark"]
+[Site "Local API"]
+[Date "2026.10.03"]
+[Round "4.1"]
+[White "Julia"]
+[Black "Stockfish 19 (UCI_Elo 1400)"]
+[Result "1-0"]
+[FEN "rnbqkb1r/pppppp1p/5np1/8/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3"]
+[SetUp "1"]
+[TimeControl "~3s/move Stockfish; Julia search budget 3.0s"]
+[Termination "Julia wins — checkmate."]
+[Opening "Kings Indian"]
+
+3. e3 d6 4. Ne2 e5 5. d5 h5 6. Qa4+ Nbd7 7. Nbc3 Bg7 8. Kd2 c6 9. dxc6 d5 10. Nxd5 bxc6 11. Qxc6 Qa5+ 12. b4 Qd8 13. Qxa8 O-O 14. Qxc8 Qxc8 15. Ne7+ Kh8 16. Nxc8 Rd8 17. Nxa7 Nc5+ 18. Kc2 Nfe4 19. bxc5 h4 20. c6 Ra8 21. Nb5 h3 22. a3 g5 23. gxh3 Rc8 24. Bg2 f5 25. Bxe4 fxe4 26. c7 Kg8 27. Nec3 Bf8 28. Rg1 Rxc7 29. Nxc7 Bg7 30. N7d5 Kf7 31. Kd2 Kg6 32. h4 Bf8 33. Rg2 Bd6 34. a4 Kh6 35. Nxe4 Be7 36. hxg5+ Kg7 37. Nxe7 Kf7 38. g6+ Ke8 39. Nd5 Kf8 40. g7+ Ke8 41. Nef6+ Kf7 42. g8=Q# 1-0
+
+[Event "Julia Chess Paired-Opening Benchmark"]
+[Site "Local API"]
+[Date "2026.10.03"]
+[Round "4.2"]
+[White "Stockfish 19 (UCI_Elo 1400)"]
+[Black "Julia"]
+[Result "1/2-1/2"]
+[FEN "rnbqkbnr/pp2pppp/8/2pp4/8/5NP1/PPPPPP1P/RNBQKB1R b KQkq - 0 3"]
+[SetUp "1"]
+[TimeControl "~3s/move Stockfish; Julia search budget 3.0s"]
+[Termination "Draw — benchmark adjudication at 120 plies after opening setup."]
+[Opening "Kings Indian"]
+
+3... Nc6 4. c3 e5 5. a3 Qf6 6. Nh4 Nh6 7. d3 Be6 8. Bg2 Ng4 9. f3 Nxh2 10. Rxh2 g5 11. Qb3 b6 12. Qb5 Rc8 13. Nd2 Ke7 14. Qa4 Kd8 15. Bh1 gxh4 16. Qxh4 Qxh4 17. Rxh4 Kc7 18. Bg2 Re8 19. Kf2 Kd7 20. Rh5 Ke7 21. c4 Kd6 22. f4 exf4 23. gxf4 f5 24. Bxd5 a6 25. Bxe6 Kxe6 26. Nf3 Kf6 27. Bd2 Rd8 28. Rg1 Rd4 29. Bc3 Ke6 30. Rg3 h6 31. b3 a5 32. Rg6+ Kd7 33. e3 Rd6 34. Rg2 Rh7 35. Ne1 Rf7 36. Ke2 Ke8 37. Rg1 Kd7 38. Nf3 Ke8 39. Ne5 Rg7 40. Nf3 Rf7 41. Ne1 Ke7 42. Rg2 Re6 43. Bh8 Kd7 44. Nf3 Kc8 45. Kf2 Kd7 46. Rg8 Be7 47. Ne5+ Nxe5 48. Bxe5 Bf8 49. Rg3 Kc6 50. a4 Kd7 51. Ke2 Ree7 52. Rg8 Ke6 53. Kf3 Rd7 54. Ke2 Rde7 55. Rg6+ Kd7 56. d4 Re6 57. Rg1 Kd8 58. d5 Re8 59. Rg6 Ree7 60. Rg8 Kc8 61. Bd6 Kd7 62. Rxf8 Kxd6 63. Rxh6+ Kd7 1/2-1/2
+

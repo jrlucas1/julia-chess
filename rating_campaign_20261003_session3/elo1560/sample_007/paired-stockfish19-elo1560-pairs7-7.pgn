@@ -1,0 +1,30 @@
+[Event "Julia Chess Paired-Opening Benchmark"]
+[Site "Local API"]
+[Date "2026.10.03"]
+[Round "7.1"]
+[White "Julia"]
+[Black "Stockfish 19 (UCI_Elo 1560)"]
+[Result "1/2-1/2"]
+[FEN "rnbqkb1r/ppp1pppp/5n2/3p4/3P4/5N2/PPP1PPPP/RNBQKB1R w KQkq - 2 3"]
+[SetUp "1"]
+[TimeControl "~3s/move Stockfish; Julia search budget 3.0s"]
+[Termination "Draw — benchmark adjudication at 120 plies after opening setup."]
+[Opening "Queens Pawn"]
+
+3. e3 Bf5 4. Bb5+ Nfd7 5. Bd2 c6 6. Be2 e6 7. O-O Nf6 8. Nh4 Be4 9. b4 Nbd7 10. f3 Bf5 11. Nxf5 exf5 12. Qe1 g6 13. Bd3 Bg7 14. Qf2 Nb6 15. Nc3 Nc4 16. Rae1 Qc7 17. Bc1 O-O 18. e4 Qb6 19. b5 Qa5 20. e5 Qxc3 21. bxc6 Ne8 22. cxb7 Rd8 23. Re2 Qa5 24. a3 Nc7 25. Rd1 Qb6 26. Bxc4 dxc4 27. d5 Rxd5 28. Rxd5 Nxd5 29. Qxb6 axb6 30. Bg5 Rb8 31. Rd2 h6 32. h4 hxg5 33. Rxd5 gxh4 34. Rd7 Bxe5 35. Kf1 Bf4 36. Ke1 g5 37. Kf2 Kf8 38. Ke1 Bg3+ 39. Kd2 Be5 40. Ke3 Ke8 41. Rd5 Bf4+ 42. Kf2 Ke7 43. Rd4 Kf8 44. Kf1 Bg3 45. Rd1 Rxb7 46. Rd5 Re7 47. Rd1 Re3 48. Ra1 c3 49. Rc1 Kg7 50. Ra1 Re7 51. Rc1 Re6 52. Rd1 Re7 53. Rc1 Re6 54. Rd1 Re5 55. Ra1 Rd5 56. Rc1 Kh7 57. Rb1 Rd6 58. Rb4 Rd2 59. Rb5 Rxc2 60. Rb1 Rd2 61. Rxb6 h3 62. gxh3 Kg7 63. Ra6 1/2-1/2
+
+[Event "Julia Chess Paired-Opening Benchmark"]
+[Site "Local API"]
+[Date "2026.10.03"]
+[Round "7.2"]
+[White "Stockfish 19 (UCI_Elo 1560)"]
+[Black "Julia"]
+[Result "1/2-1/2"]
+[FEN "rnbqkb1r/ppp1pppp/5n2/3p4/3P4/5N2/PPP1PPPP/RNBQKB1R b KQkq - 2 3"]
+[SetUp "1"]
+[TimeControl "~3s/move Stockfish; Julia search budget 3.0s"]
+[Termination "Draw — threefold repetition."]
+[Opening "Queens Pawn"]
+
+3... e6 4. e3 Bd6 5. c4 Nc6 6. a3 Bd7 7. Nc3 Qb8 8. b3 Kd8 9. Be2 Re8 10. Bb2 dxc4 11. bxc4 Qc8 12. Ng5 Rf8 13. O-O a5 14. Rc1 Rb8 15. d5 Ne7 16. c5 Nf5 17. cxd6 Nxd6 18. Nf3 Re8 19. a4 exd5 20. Nb5 Nxb5 21. axb5 c6 22. h4 h6 23. Ne5 Ke7 24. Qd3 Rd8 25. bxc6 bxc6 26. Bd4 Qc7 27. Nxd7 Rxd7 28. Qf5 Re8 29. Bf3 Rc8 30. Be5 Qa7 31. e4 Nxe4 32. Bxe4 f6 33. Bb1 fxe5 34. Qxe5+ Kf8 35. Bg6 Qc7 36. Qb2 Ra8 37. Rfe1 a4 38. Rc3 d4 39. Rh3 Qa7 40. Qa2 Rd6 41. Bh7 Qf7 42. Rf3 Ra7 43. Qb2 Rad7 44. h5 Qxf3 45. gxf3 Kf7 46. Qb8 Rd8 47. Qc7+ R8d7 48. Qb8 Rd8 49. Qa7+ R8d7 1/2-1/2
+

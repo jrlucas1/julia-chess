@@ -1,0 +1,30 @@
+[Event "Julia Chess Paired-Opening Benchmark"]
+[Site "Local API"]
+[Date "2026.10.03"]
+[Round "6.1"]
+[White "Julia"]
+[Black "Stockfish 19 (UCI_Elo 1480)"]
+[Result "0-1"]
+[FEN "rnbqkb1r/ppp1pppp/5n2/3p4/8/5NP1/PPPPPP1P/RNBQKB1R w KQkq - 1 3"]
+[SetUp "1"]
+[TimeControl "~3s/move Stockfish; Julia search budget 3.0s"]
+[Termination "Stockfish 19 wins — checkmate."]
+[Opening "Reti Opening"]
+
+3. d4 Bf5 4. Bf4 Nc6 5. Rg1 e6 6. a3 h6 7. Rg2 g5 8. Be3 Bg7 9. Qd2 Ne4 10. Qd1 Nd6 11. Nbd2 g4 12. Nh4 Nxd4 13. Nxf5 N4xf5 14. Qb1 O-O 15. a4 b6 16. Ra3 d4 17. Bf4 e5 18. e4 h5 19. Bxe5 Bxe5 20. exf5 Qe7 21. Bd3 Bf4+ 22. Kd1 Bh6 23. c4 Rae8 24. Kc2 Nxf5 25. Qc1 Qf6 26. Kd1 Re5 27. Kc2 Nd6 28. Qd1 Rfe8 29. Ra1 Rf5 30. Qg1 Rfe5 31. Qd1 Bxd2 32. Qxd2 c5 33. Qc1 Kf8 34. b3 a5 35. Qd2 Qf3 36. Rag1 R8e6 37. Qd1 Ne4 38. Qf1 Nc3 39. Qa1 Re2+ 40. Bxe2 Rxe2+ 41. Kc1 Qd3 42. Qb2 Rxb2 43. Rh1 Rb1# 0-1
+
+[Event "Julia Chess Paired-Opening Benchmark"]
+[Site "Local API"]
+[Date "2026.10.03"]
+[Round "6.2"]
+[White "Stockfish 19 (UCI_Elo 1480)"]
+[Black "Julia"]
+[Result "1/2-1/2"]
+[FEN "rnbqkb1r/pppppp1p/5np1/8/3P4/5N2/PPP1PPPP/RNBQKB1R b KQkq - 1 3"]
+[SetUp "1"]
+[TimeControl "~3s/move Stockfish; Julia search budget 3.0s"]
+[Termination "Draw — benchmark adjudication at 120 plies after opening setup."]
+[Opening "Reti Opening"]
+
+3... d6 4. h3 d5 5. e3 Bd7 6. c4 Nc6 7. Nc3 Be6 8. cxd5 Nxd5 9. Bd2 Nf6 10. Bc1 Qd6 11. e4 Bc8 12. Be3 Nh5 13. e5 Qd7 14. Rc1 a6 15. Bc4 Bg7 16. Ng5 Kf8 17. Nxf7 Na5 18. Qf3 Nxc4 19. Nxh8+ Nf6 20. Nxg6+ hxg6 21. exf6 exf6 22. O-O Kg8 23. Qd5+ Qf7 24. Qd8+ Qf8 25. Qxc7 Nxe3 26. fxe3 Qf7 27. Qxf7+ Kxf7 28. Nd5 Bd7 29. Kf2 Bc6 30. Nc3 Ke7 31. d5 Bd7 32. b3 Rh8 33. Na4 f5 34. d6+ Kxd6 35. Rc2 Ke5 36. Rc5+ Kf6 37. Rc7 Bc6 38. Rd1 Bh6 39. Nc3 Rg8 40. Rd6+ Ke5 41. Rcxc6 bxc6 42. Rxc6 Bg5 43. Ke2 Rd8 44. Nb1 Rd5 45. Rxa6 Rd8 46. Rc6 Rd6 47. Rc8 Re6 48. Nd2 Kd6 49. Rc3 Kd7 50. Kf2 Rc6 51. Rxc6 Kxc6 52. Kf3 Kd6 53. g4 Ke6 54. gxf5+ gxf5 55. a3 Kd6 56. a4 Kc7 57. Ke2 Bh6 58. h4 Kd7 59. Nc4 Ke6 60. Kf2 Kf7 61. a5 Bf8 62. Kf3 Ke6 63. h5 Kf6 1/2-1/2
+

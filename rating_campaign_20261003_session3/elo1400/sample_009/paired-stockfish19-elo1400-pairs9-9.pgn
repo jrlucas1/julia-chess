@@ -1,0 +1,30 @@
+[Event "Julia Chess Paired-Opening Benchmark"]
+[Site "Local API"]
+[Date "2026.10.03"]
+[Round "9.1"]
+[White "Julia"]
+[Black "Stockfish 19 (UCI_Elo 1400)"]
+[Result "1/2-1/2"]
+[FEN "rnbqkbnr/pp2pppp/2p5/3p4/3PP3/8/PPP2PPP/RNBQKBNR w KQkq - 0 3"]
+[SetUp "1"]
+[TimeControl "~3s/move Stockfish; Julia search budget 3.0s"]
+[Termination "Draw — threefold repetition."]
+[Opening "Caro-Kann Defense"]
+
+3. Nc3 Nf6 4. Bd3 Qc7 5. exd5 g6 6. Qf3 Bg4 7. Qf4 Qa5 8. Be2 Bxe2 9. Nxe2 Nxd5 10. Qe4 Nd7 11. O-O Nxc3 12. Nxc3 Bg7 13. Rd1 Qf5 14. Qxf5 gxf5 15. Rb1 e6 16. Ra1 Bf6 17. Rd3 O-O-O 18. Bf4 a6 19. Rf1 a5 20. Rd2 b6 21. Rb1 b5 22. b4 Nb6 23. bxa5 Nd5 24. Ne2 Rhg8 25. Bh6 Rg6 26. Be3 Kc7 27. Rb2 Ra8 28. Rd3 b4 29. a4 Rxa5 30. Kf1 Rg8 31. Rb1 Rxa4 32. Rbd1 Be7 33. R3d2 Kb6 34. h3 Rga8 35. Rb1 Bd6 36. c3 Ra1 37. Rb2 f4 38. Bc1 Kb5 39. f3 Rxb1 40. Rxb1 b3 41. Rxb3+ Ka5 42. Rb2 Rd8 43. Rb3 Rb8 44. Rxb8 Bxb8 45. Bb2 Bc7 46. Ba3 Bb8 47. Ke1 Kb5 48. Kf2 Ne3 49. g4 e5 50. Bc5 Nd1+ 51. Ke1 Ne3 52. Kf2 Nd1+ 53. Ke1 Ne3 1/2-1/2
+
+[Event "Julia Chess Paired-Opening Benchmark"]
+[Site "Local API"]
+[Date "2026.10.03"]
+[Round "9.2"]
+[White "Stockfish 19 (UCI_Elo 1400)"]
+[Black "Julia"]
+[Result "1/2-1/2"]
+[FEN "rnbqkbnr/ppp2ppp/8/3pp3/3P4/2P5/PP2PPPP/RNBQKBNR b KQkq - 0 3"]
+[SetUp "1"]
+[TimeControl "~3s/move Stockfish; Julia search budget 3.0s"]
+[Termination "Draw — threefold repetition."]
+[Opening "Caro-Kann Defense"]
+
+3... Nc6 4. h3 Qd6 5. b3 Be7 6. e3 Nf6 7. Qc2 Qe6 8. Bb5 exd4 9. Bxc6+ Qxc6 10. exd4 g6 11. Qd3 Bd6 12. Bg5 Bf5 13. Qd1 Ng8 14. a4 Rb8 15. Ne2 Ra8 16. Na3 Kf8 17. Bd2 a6 18. Nc2 Be6 19. Ne3 Ra7 20. Rc1 Qe8 21. O-O Qd7 22. Re1 Qd8 23. Nf1 Qe7 24. Nf4 Nf6 25. Nxe6+ fxe6 26. Bh6+ Kg8 27. Rc2 e5 28. Ne3 b5 29. dxe5 Qxe5 30. Nf1 Qh5 31. Qc1 Rb7 32. Bf4 Rb6 33. Rce2 bxa4 34. Bxd6 cxd6 35. Qf4 Ne4 36. Ng3 Qe5 37. Qg4 Qf6 38. Qc8+ Qf8 39. Qd7 Rxb3 40. Qc6 Qf7 41. Nxe4 dxe4 42. Qxa4 Rb6 43. Qd4 Rb5 44. Rxe4 Re5 45. c4 Qf6 46. R1e3 Qf7 47. Re1 Qf6 48. Rxe5 dxe5 49. Rxe5 Kf8 50. g3 Qf7 51. Re3 Kg8 52. g4 a5 53. c5 h5 54. g5 Qg7 55. Qd6 a4 56. Re7 Qxe7 57. Qxe7 a3 58. Qe8+ Kg7 59. Qe5+ Kh7 60. Qe7+ Kg8 61. Qe8+ Kg7 62. Qd7+ Kg8 1/2-1/2
+

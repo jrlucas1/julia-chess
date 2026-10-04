@@ -1,0 +1,39 @@
+{
+  "stockfish": {
+    "name": "Stockfish 19",
+    "author": "the Stockfish developers (see AUTHORS file)"
+  },
+  "stockfish_uci_elo": 1560,
+  "stockfish_move_time_seconds": 3.0,
+  "julia_configuration": "current server model/search; three seconds search budget",
+  "protocol": "fixed opening positions, each played twice with colors swapped; adjudicated draw after 120 plies from setup FEN",
+  "pairs": 8,
+  "games": [
+    {
+      "pair": 8,
+      "round": 1,
+      "opening": "French Defense",
+      "julia_color": "White",
+      "start_fen": "rnbqkbnr/ppp2ppp/4p3/3p4/3PP3/8/PPP2PPP/RNBQKBNR w KQkq - 0 3",
+      "result": "1/2-1/2",
+      "score_julia": 0.5,
+      "termination": "Draw \u2014 benchmark adjudication at 120 plies after opening setup.",
+      "plies": 121,
+      "seconds": 287.75
+    },
+    {
+      "pair": 8,
+      "round": 2,
+      "opening": "French Defense",
+      "julia_color": "Black",
+      "start_fen": "rnbqkbnr/ppp2ppp/8/3pp3/3P4/4P3/PPP2PPP/RNBQKBNR b KQkq - 0 3",
+      "result": "1/2-1/2",
+      "score_julia": 0.5,
+      "termination": "Draw \u2014 benchmark adjudication at 120 plies after opening setup.",
+      "plies": 121,
+      "seconds": 315.13
+    }
+  ],
+  "score_fraction": 0.5,
+  "pgn_file": "C:\\Users\\lmao\\Downloads\\jev-bot\\jev-bot\\xadrez\\rating_campaign_20261003_session3\\elo1560\\sample_008\\paired-stockfish19-elo1560-pairs8-8.pgn"
+}

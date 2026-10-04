@@ -1,0 +1,39 @@
+{
+  "stockfish": {
+    "name": "Stockfish 19",
+    "author": "the Stockfish developers (see AUTHORS file)"
+  },
+  "stockfish_uci_elo": 1560,
+  "stockfish_move_time_seconds": 3.0,
+  "julia_configuration": "current server model/search; three seconds search budget",
+  "protocol": "fixed opening positions, each played twice with colors swapped; adjudicated draw after 120 plies from setup FEN",
+  "pairs": 7,
+  "games": [
+    {
+      "pair": 7,
+      "round": 1,
+      "opening": "Queens Pawn",
+      "julia_color": "White",
+      "start_fen": "rnbqkb1r/ppp1pppp/5n2/3p4/3P4/5N2/PPP1PPPP/RNBQKB1R w KQkq - 2 3",
+      "result": "1/2-1/2",
+      "score_julia": 0.5,
+      "termination": "Draw \u2014 benchmark adjudication at 120 plies after opening setup.",
+      "plies": 121,
+      "seconds": 307.79
+    },
+    {
+      "pair": 7,
+      "round": 2,
+      "opening": "Queens Pawn",
+      "julia_color": "Black",
+      "start_fen": "rnbqkb1r/ppp1pppp/5n2/3p4/3P4/5N2/PPP1PPPP/RNBQKB1R b KQkq - 2 3",
+      "result": "1-0",
+      "score_julia": 0.0,
+      "termination": "Stockfish 19 wins \u2014 checkmate.",
+      "plies": 80,
+      "seconds": 192.47
+    }
+  ],
+  "score_fraction": 0.25,
+  "pgn_file": "C:\\Users\\lmao\\Downloads\\jev-bot\\jev-bot\\xadrez\\rating_campaign_20261003\\elo1560\\sample_007\\paired-stockfish19-elo1560-pairs7-7.pgn"
+}

@@ -1,0 +1,39 @@
+{
+  "stockfish": {
+    "name": "Stockfish 19",
+    "author": "the Stockfish developers (see AUTHORS file)"
+  },
+  "stockfish_uci_elo": 1320,
+  "stockfish_move_time_seconds": 3.0,
+  "julia_configuration": "current server model/search; three seconds search budget",
+  "protocol": "fixed opening positions, each played twice with colors swapped; adjudicated draw after 120 plies from setup FEN",
+  "pairs": 9,
+  "games": [
+    {
+      "pair": 9,
+      "round": 1,
+      "opening": "Caro-Kann Defense",
+      "julia_color": "White",
+      "start_fen": "rnbqkbnr/pp2pppp/2p5/3p4/3PP3/8/PPP2PPP/RNBQKBNR w KQkq - 0 3",
+      "result": "0-1",
+      "score_julia": 0.0,
+      "termination": "Stockfish 19 wins \u2014 checkmate.",
+      "plies": 72,
+      "seconds": 188.69
+    },
+    {
+      "pair": 9,
+      "round": 2,
+      "opening": "Caro-Kann Defense",
+      "julia_color": "Black",
+      "start_fen": "rnbqkbnr/ppp2ppp/8/3pp3/3P4/2P5/PP2PPPP/RNBQKBNR b KQkq - 0 3",
+      "result": "0-1",
+      "score_julia": 1.0,
+      "termination": "Julia wins \u2014 checkmate.",
+      "plies": 107,
+      "seconds": 280.24
+    }
+  ],
+  "score_fraction": 0.5,
+  "pgn_file": "C:\\Users\\lmao\\Downloads\\jev-bot\\jev-bot\\xadrez\\rating_campaign_20261003_session3\\elo1320\\sample_009\\paired-stockfish19-elo1320-pairs9-9.pgn"
+}

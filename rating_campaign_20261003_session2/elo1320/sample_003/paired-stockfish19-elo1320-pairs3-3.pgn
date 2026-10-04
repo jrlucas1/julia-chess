@@ -1,0 +1,30 @@
+[Event "Julia Chess Paired-Opening Benchmark"]
+[Site "Local API"]
+[Date "2026.10.03"]
+[Round "3.1"]
+[White "Julia"]
+[Black "Stockfish 19 (UCI_Elo 1320)"]
+[Result "0-1"]
+[FEN "rnbqkbnr/pp2pppp/3p4/2p5/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 3"]
+[SetUp "1"]
+[TimeControl "~3s/move Stockfish; Julia search budget 3.0s"]
+[Termination "Stockfish 19 wins — checkmate."]
+[Opening "Sicilian Defense"]
+
+3. d3 g6 4. Be3 Bg7 5. Nc3 Nf6 6. Kd2 b5 7. Qc1 Nc6 8. Ke2 b4 9. Nb5 a6 10. Nfd4 Ne5 11. Kd2 cxd4 12. Nxd4 O-O 13. f4 Neg4 14. Ke2 h5 15. a3 a5 16. Ke1 bxa3 17. bxa3 a4 18. h3 e5 19. fxe5 Nxe3 20. exf6 Qa5+ 21. Kf2 Bh6 22. Qb2 Qc5 23. Ke2 Rb8 24. Qxb8 Qxd4 25. Rb1 Qe5 26. Rb5 Qg3 27. Rb4 Nxc2 28. Qb6 Be3 29. d4 Qf2+ 30. Kd3 Be6 31. Be2 Nxa3 32. Qa6 Bg5 33. Kc3 Rc8+ 34. Qxc8+ Bxc8 35. Rb8 Qxe2 36. Rxc8+ Kh7 37. Rh8+ Kxh8 38. Rc1 Qd2# 0-1
+
+[Event "Julia Chess Paired-Opening Benchmark"]
+[Site "Local API"]
+[Date "2026.10.03"]
+[Round "3.2"]
+[White "Stockfish 19 (UCI_Elo 1320)"]
+[Black "Julia"]
+[Result "1/2-1/2"]
+[FEN "rnbqkb1r/pppp1ppp/5n2/4p3/2P5/3P4/PP2PPPP/RNBQKBNR b KQkq - 0 3"]
+[SetUp "1"]
+[TimeControl "~3s/move Stockfish; Julia search budget 3.0s"]
+[Termination "Draw — benchmark adjudication at 120 plies after opening setup."]
+[Opening "Sicilian Defense"]
+
+3... d5 4. e3 Be6 5. cxd5 Bxd5 6. Nf3 Nc6 7. e4 Nxe4 8. dxe4 Bxe4 9. Be2 Qf6 10. Nc3 Bb4 11. O-O Qg6 12. Nh4 Qf6 13. g3 Bxc3 14. bxc3 Rc8 15. Ba3 Qe6 16. Qa4 Qd5 17. Bb5 f5 18. f3 a6 19. Bxc6+ Qxc6 20. Qb4 Qb6+ 21. Kh1 Qxb4 22. Bxb4 Bd5 23. Nxf5 Kf7 24. Ne7 Rcd8 25. Nxd5 Rxd5 26. c4 Rd7 27. Be1 Kf6 28. Rf2 Rd4 29. c5 Rc8 30. Bc3 Rd5 31. Bb4 Re8 32. a3 Ra8 33. f4 Ke6 34. Kg2 Rf8 35. Re2 h6 36. c6 Re8 37. cxb7 Rb8 38. Rc1 a5 39. Bc3 Kf5 40. Rf1 exf4 41. Bxg7 Kg6 42. Bb2 f3+ 43. Rxf3 Rxb7 44. Rf4 Rdb5 45. Bd4 Rd5 46. Rg4+ Kf5 47. Rh4 Rd6 48. Rf4+ Kg6 49. Bf2 Rd3 50. Re7 h5 51. Kh3 Rdb3 52. Rd7 Rxa3 53. Bg1 a4 54. Bc5 Ra2 55. Bd4 Rb6 56. Re7 Rd6 57. Rg7+ Kh6 58. Bc3 c6 59. Rf8 Rg6 60. Re7 Rd6 61. Rh8+ Kg5 62. Rg8+ Kh6 63. Rh8+ Kg5 1/2-1/2
+

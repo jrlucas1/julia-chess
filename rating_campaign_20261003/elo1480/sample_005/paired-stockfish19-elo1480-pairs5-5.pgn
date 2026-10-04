@@ -1,0 +1,30 @@
+[Event "Julia Chess Paired-Opening Benchmark"]
+[Site "Local API"]
+[Date "2026.10.03"]
+[Round "5.1"]
+[White "Julia"]
+[Black "Stockfish 19 (UCI_Elo 1480)"]
+[Result "1/2-1/2"]
+[FEN "r1bqkbnr/pppp1ppp/2n5/4p3/2P5/5N2/PP1PPPPP/RNBQKB1R w KQkq - 2 3"]
+[SetUp "1"]
+[TimeControl "~3s/move Stockfish; Julia search budget 3.0s"]
+[Termination "Draw — benchmark adjudication at 120 plies after opening setup."]
+[Opening "English Opening"]
+
+3. d4 e4 4. d5 exf3 5. dxc6 fxg2 6. Bxg2 bxc6 7. e3 Rb8 8. Qf3 g6 9. e4 h5 10. Qe3 a5 11. Nc3 Nf6 12. Qf3 Nh7 13. Qe2 Bg7 14. c5 Qh4 15. Qd2 O-O 16. Qe2 d6 17. Qf3 Be5 18. cxd6 Re8 19. b4 Bg4 20. Qd3 axb4 21. Nd1 Bxa1 22. dxc7 Rbc8 23. Bf4 Be5 24. Bg3 Qg5 25. f3 Bxf3 26. Qxf3 Bxc7 27. Bxc7 b3 28. axb3 Rxc7 29. O-O Qe5 30. Qc3 Re6 31. Qd2 Re8 32. Qc3 Ng5 33. Qc4 Rce7 34. Qc2 Qc7 35. Nc3 Qa7+ 36. Kh1 Re5 37. Rc1 h4 38. Re1 h3 39. Rf1 Qe3 40. Bxh3 Rc5 41. Bd7 Rb8 42. Nd1 Qd4 43. Qf2 Qxf2 44. Nxf2 Rc3 45. Rb1 Nf3 46. b4 Rc2 47. Kg2 Nd2 48. Re1 Nb3 49. Rh1 Kh8 50. Re1 Nc1 51. Kg3 Rxb4 52. h4 Ne2+ 53. Kh2 Nc3 54. Kg1 Ne2+ 55. Kh2 Kg7 56. Kh3 Rb3+ 57. Kh2 Nf4 58. Rf1 Ne2 59. Re1 Nc1 60. Kg1 Rf3 61. e5 Rfxf2 62. Rxc1 c5 63. Bc8 1/2-1/2
+
+[Event "Julia Chess Paired-Opening Benchmark"]
+[Site "Local API"]
+[Date "2026.10.03"]
+[Round "5.2"]
+[White "Stockfish 19 (UCI_Elo 1480)"]
+[Black "Julia"]
+[Result "1-0"]
+[FEN "rnbqkb1r/pp1ppppp/5n2/2p5/4P3/2N5/PPPP1PPP/R1BQKBNR b KQkq - 2 3"]
+[SetUp "1"]
+[TimeControl "~3s/move Stockfish; Julia search budget 3.0s"]
+[Termination "Stockfish 19 wins — checkmate."]
+[Opening "English Opening"]
+
+3... d6 4. a3 e6 5. Be2 Nc6 6. Bb5 Qb6 7. d3 d5 8. Bxc6+ bxc6 9. Nf3 Bb7 10. Rb1 d4 11. Na2 Rc8 12. Qd2 Rb8 13. e5 Nd5 14. h4 Kd8 15. O-O Ra8 16. Qg5+ Kc7 17. Bd2 Kb8 18. c4 Ne7 19. Qg4 h5 20. Qg5 Rh6 21. b4 Kc8 22. Qg3 Rh8 23. bxc5 Qxc5 24. Bb4 Nf5 25. Qh3 Qb6 26. Bxf8 Qd8 27. Bc5 Qd7 28. Rb4 Kc7 29. Rb2 Rhe8 30. Ng5 Rec8 31. Rfb1 Rcb8 32. Bb4 Kc8 33. Ne4 a5 34. Bd2 Ra7 35. a4 Qe7 36. Nd6+ Nxd6 37. exd6 Qxd6 38. Qf3 Qd7 39. Bf4 e5 40. Bg3 Ra6 41. Qxh5 f6 42. f4 f5 43. Re1 e4 44. c5 exd3 45. Reb1 Raa8 46. Be1 g6 47. Qg5 Qe6 48. h5 gxh5 49. Kh2 Qd5 50. Qe7 Ra7 51. Bxa5 Rxa5 52. Rxb7 Rxb7 53. Qxb7+ Kd8 54. Nb4 Qxc5 55. Nxc6+ Qxc6 56. Qxc6 Ra7 57. Qd6+ Kc8 58. Rb8# 1-0
+

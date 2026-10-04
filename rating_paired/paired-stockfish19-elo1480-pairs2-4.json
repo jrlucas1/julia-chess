@@ -1,0 +1,87 @@
+{
+  "stockfish": {
+    "name": "Stockfish 19",
+    "author": "the Stockfish developers (see AUTHORS file)"
+  },
+  "stockfish_uci_elo": 1480,
+  "stockfish_move_time_seconds": 3.0,
+  "julia_configuration": "current server model/search; three seconds search budget",
+  "protocol": "fixed opening positions, each played twice with colors swapped; adjudicated draw after 120 plies from setup FEN",
+  "pairs": 4,
+  "games": [
+    {
+      "pair": 2,
+      "round": 1,
+      "opening": "Queens Gambit",
+      "julia_color": "White",
+      "start_fen": "rnbqkbnr/ppp2ppp/4p3/3p4/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3",
+      "result": "0-1",
+      "score_julia": 0.0,
+      "termination": "Stockfish 19 wins \u2014 checkmate.",
+      "plies": 64,
+      "seconds": 153.43
+    },
+    {
+      "pair": 2,
+      "round": 2,
+      "opening": "Queens Gambit",
+      "julia_color": "Black",
+      "start_fen": "rnbqkbnr/pp2pppp/8/2pp4/3P4/4P3/PPP2PPP/RNBQKBNR b KQkq - 0 3",
+      "result": "1/2-1/2",
+      "score_julia": 0.5,
+      "termination": "Draw \u2014 benchmark adjudication at 120 plies after opening setup.",
+      "plies": 121,
+      "seconds": 283.34
+    },
+    {
+      "pair": 3,
+      "round": 1,
+      "opening": "Sicilian Defense",
+      "julia_color": "White",
+      "start_fen": "rnbqkbnr/pp2pppp/3p4/2p5/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 3",
+      "result": "1/2-1/2",
+      "score_julia": 0.5,
+      "termination": "Draw \u2014 threefold repetition.",
+      "plies": 55,
+      "seconds": 146.66
+    },
+    {
+      "pair": 3,
+      "round": 2,
+      "opening": "Sicilian Defense",
+      "julia_color": "Black",
+      "start_fen": "rnbqkb1r/pppp1ppp/5n2/4p3/2P5/3P4/PP2PPPP/RNBQKBNR b KQkq - 0 3",
+      "result": "0-1",
+      "score_julia": 1.0,
+      "termination": "Julia wins \u2014 checkmate.",
+      "plies": 71,
+      "seconds": 180.03
+    },
+    {
+      "pair": 4,
+      "round": 1,
+      "opening": "Kings Indian",
+      "julia_color": "White",
+      "start_fen": "rnbqkb1r/pppppp1p/5np1/8/2PP4/8/PP2PPPP/RNBQKBNR w KQkq - 0 3",
+      "result": "0-1",
+      "score_julia": 0.0,
+      "termination": "Stockfish 19 wins \u2014 checkmate.",
+      "plies": 102,
+      "seconds": 272.54
+    },
+    {
+      "pair": 4,
+      "round": 2,
+      "opening": "Kings Indian",
+      "julia_color": "Black",
+      "start_fen": "rnbqkbnr/pp2pppp/8/2pp4/8/5NP1/PPPPPP1P/RNBQKB1R b KQkq - 0 3",
+      "result": "1-0",
+      "score_julia": 0.0,
+      "termination": "Stockfish 19 wins \u2014 checkmate.",
+      "plies": 78,
+      "seconds": 171.1
+    }
+  ],
+  "score_fraction": 0.3333333333333333,
+  "pgn_file": "C:\\Users\\lmao\\Downloads\\jev-bot\\jev-bot\\xadrez\\rating_paired\\paired-stockfish19-elo1480-pairs2-4.pgn"
+}

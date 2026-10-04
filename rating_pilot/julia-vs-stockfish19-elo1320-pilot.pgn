@@ -1,0 +1,36 @@
+[Event "Julia Chess Rating Pilot"]
+[Site "Local API"]
+[Date "2026.10.02"]
+[Round "1"]
+[White "Stockfish 19 (UCI_Elo 1320)"]
+[Black "Julia (current model + search configuration)"]
+[Result "1/2-1/2"]
+[TimeControl "~3s/move Stockfish; Julia server default"]
+[Termination "Draw — threefold repetition."]
+
+1. e4 e6 2. Nc3 d6 3. Be2 Ne7 4. h4 e5 5. Nf3 Bd7 6. d4 f6 7. h5 exd4 8. Qxd4 Nbc6 9. Qd3 Nb4 10. Qd1 Rg8 11. a3 Nbc6 12. Be3 Rc8 13. Bb5 a6 14. Bf1 b5 15. Qd2 h6 16. a4 b4 17. Nd5 a5 18. Nf4 g5 19. Nd5 Bg7 20. Bc4 Rf8 21. O-O-O g4 22. Bxh6 Bxh6 23. Qxh6 gxf3 24. gxf3 Nxd5 25. Bxd5 Ne5 26. Qe3 c6 27. Ba2 d5 28. f4 d4 29. Rxd4 Nf7 30. Be6 Rc7 31. Rhd1 Bxe6 32. Rxd8+ Nxd8 33. f5 Bc8 34. Qb6 Rff7 35. Qxa5 Rh7 36. h6 Rcd7 37. Rh1 Rc7 38. b3 Rcd7 39. Qxb4 Rde7 40. Rg1 Bb7 41. Rg8+ Kf7 42. Rxd8 Ba6 43. c3 Rxh6 44. Rd1 Rh3 45. a5 Re5 46. Rg1 c5 47. Qa4 Bd3 48. Qd7+ Kf8 49. Qd6+ Kf7 50. Qd7+ Kf8 51. Qd6+ Kf7 1/2-1/2
+
+[Event "Julia Chess Rating Pilot"]
+[Site "Local API"]
+[Date "2026.10.02"]
+[Round "2"]
+[White "Stockfish 19 (UCI_Elo 1320)"]
+[Black "Julia (current model + search configuration)"]
+[Result "1/2-1/2"]
+[TimeControl "~3s/move Stockfish; Julia server default"]
+[Termination "Draw — threefold repetition."]
+
+1. d4 d5 2. e3 Be6 3. b3 Qd7 4. Ne2 h6 5. Nf4 Nc6 6. c4 Rb8 7. Nxe6 fxe6 8. Bb2 dxc4 9. bxc4 a5 10. a3 Qd8 11. Nd2 Qd7 12. h4 Qd8 13. Qh5+ Kd7 14. Qg6 Ra8 15. h5 Qc8 16. g3 Kd8 17. Nf3 Ra7 18. Qf7 Nf6 19. Qg6 Qd7 20. Bh3 Ra6 21. Qc2 Ra8 22. Qg6 Ra6 23. Kf1 Ra7 24. a4 Qd6 25. Nh4 Kc8 26. Nf3 Kd8 27. Bc3 Nb8 28. Bb2 1/2-1/2
+
+[Event "Julia Chess Rating Pilot"]
+[Site "Local API"]
+[Date "2026.10.02"]
+[Round "3"]
+[White "Stockfish 19 (UCI_Elo 1320)"]
+[Black "Julia (current model + search configuration)"]
+[Result "0-1"]
+[TimeControl "~3s/move Stockfish; Julia server default"]
+[Termination "Julia wins — checkmate."]
+
+1. Nf3 d6 2. Nc3 Nf6 3. e4 e6 4. g3 e5 5. Bg2 Qe7 6. O-O Kd7 7. Bh3+ Kd8 8. Bxc8 Kxc8 9. d4 Nbd7 10. Bg5 Qe8 11. Bxf6 Nxf6 12. b4 a6 13. Rb1 Kb8 14. dxe5 dxe5 15. a4 Bd6 16. h3 Qe7 17. Nd5 Qd8 18. Qd3 h6 19. c4 Re8 20. Ne3 Kc8 21. a5 Rf8 22. Rfd1 Re8 23. c5 Bf8 24. Qc4 Qe7 25. Nd5 Qe6 26. Qc2 Rb8 27. Qd3 Qd7 28. Qc2 Qb5 29. Nb6+ cxb6 30. cxb6+ Qc6 31. Rbc1 Ra8 32. Qd3 Bxb4 33. Qb3 Bc5 34. Kh2 g5 35. Qxf7 Rf8 36. Qb3 Nxe4 37. Rc2 Re8 38. Rdc1 Kb8 39. Qf7 Rd8 40. Rc4 Rf8 41. Qg7 Rxf3 42. Qxe5+ Nd6 43. R1c2 Rf5 44. Qxc5 Rxc5 45. Rxc5 Qe4 46. Rd2 Qe6 47. Rd3 Qf6 48. Rc2 Nf7 49. Rcd2 h5 50. Re2 Nd8 51. h4 gxh4 52. Re8 Qxf2+ 53. Kh1 Qf1+ 54. Kh2 Qxd3 55. gxh4 Qd6+ 56. Kh1 Qc6+ 57. Kg1 Qxe8 58. Kg2 Qe1 59. Kh2 Qe3 60. Kh1 Ne6 61. Kh2 Nf4 62. Kh1 Qe4+ 63. Kh2 Qg2# 0-1
+

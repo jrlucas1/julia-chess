@@ -1,0 +1,43 @@
+{
+  "stockfish": {
+    "name": "Stockfish 19",
+    "author": "the Stockfish developers (see AUTHORS file)"
+  },
+  "stockfish_uci_elo": 1320,
+  "stockfish_move_time_seconds": 3.0,
+  "julia_server_budget": "existing server defaults: depth 6, 3.0s search, margin 120",
+  "julia_color": "Black in every game; one-color pilot, not final rating",
+  "games": [
+    {
+      "round": 1,
+      "result_white_stockfish_black_julia": "1/2-1/2",
+      "score_julia": 0.5,
+      "termination": "Draw \u2014 threefold repetition.",
+      "plies": 102,
+      "seconds": 271.99,
+      "opening_first_move": "e2e4",
+      "pgn_file": "C:\\Users\\lmao\\Downloads\\jev-bot\\jev-bot\\xadrez\\rating_pilot\\julia-vs-stockfish19-elo1320-pilot.pgn"
+    },
+    {
+      "round": 2,
+      "result_white_stockfish_black_julia": "1/2-1/2",
+      "score_julia": 0.5,
+      "termination": "Draw \u2014 threefold repetition.",
+      "plies": 55,
+      "seconds": 136.71,
+      "opening_first_move": "d2d4",
+      "pgn_file": "C:\\Users\\lmao\\Downloads\\jev-bot\\jev-bot\\xadrez\\rating_pilot\\julia-vs-stockfish19-elo1320-pilot.pgn"
+    },
+    {
+      "round": 3,
+      "result_white_stockfish_black_julia": "0-1",
+      "score_julia": 1.0,
+      "termination": "Julia wins \u2014 checkmate.",
+      "plies": 126,
+      "seconds": 302.36,
+      "opening_first_move": "g1f3",
+      "pgn_file": "C:\\Users\\lmao\\Downloads\\jev-bot\\jev-bot\\xadrez\\rating_pilot\\julia-vs-stockfish19-elo1320-pilot.pgn"
+    }
+  ],
+  "julia_score_fraction": 0.6666666666666666
+}

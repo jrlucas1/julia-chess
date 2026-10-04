@@ -1,0 +1,30 @@
+[Event "Julia Chess Paired-Opening Benchmark"]
+[Site "Local API"]
+[Date "2026.10.03"]
+[Round "3.1"]
+[White "Julia"]
+[Black "Stockfish 19 (UCI_Elo 1480)"]
+[Result "0-1"]
+[FEN "rnbqkbnr/pp2pppp/3p4/2p5/4P3/5N2/PPPP1PPP/RNBQKB1R w KQkq - 0 3"]
+[SetUp "1"]
+[TimeControl "~3s/move Stockfish; Julia search budget 3.0s"]
+[Termination "Stockfish 19 wins — checkmate."]
+[Opening "Sicilian Defense"]
+
+3. d3 f5 4. Be2 Nf6 5. Ng5 g6 6. Bf3 Qb6 7. Na3 fxe4 8. Bxe4 Nc6 9. Nc4 Qa6 10. Ne3 Rb8 11. Qd2 Nxe4 12. Nxe4 Bf5 13. a3 Bxe4 14. dxe4 Rc8 15. f4 Bh6 16. Qf2 Nd4 17. Nd5 Qc4 18. Nc3 d5 19. exd5 Bg7 20. h3 O-O 21. Kd1 e6 22. d6 Rcd8 23. Qg3 Nf5 24. Qf3 e5 25. fxe5 Nxd6 26. Qe2 Nf5+ 27. Bd2 Qxe2+ 28. Nxe2 Bh6 29. g4 Ne7 30. Nd4 Rxd4 31. Ra2 Bxd2 32. c3 Rd3 33. Kc2 Rd5 34. c4 Rdd8 35. Rha1 Rf2 36. Rh1 Bg5+ 37. Kc3 Rfd2 38. Kb3 R8d3+ 39. Ka4 Nc8 40. h4 Bd8 41. Rf1 Bc7 42. e6 Nb6+ 43. Kb5 Re3 44. Rc1 Rdd3 45. Ka5 Re4 46. b4 a6 47. Rc3 Nxc4+ 48. Ka4 Rxc3 49. Rd2 Nd6 50. Rd5 b5# 0-1
+
+[Event "Julia Chess Paired-Opening Benchmark"]
+[Site "Local API"]
+[Date "2026.10.03"]
+[Round "3.2"]
+[White "Stockfish 19 (UCI_Elo 1480)"]
+[Black "Julia"]
+[Result "1-0"]
+[FEN "rnbqkb1r/pppp1ppp/5n2/4p3/2P5/3P4/PP2PPPP/RNBQKBNR b KQkq - 0 3"]
+[SetUp "1"]
+[TimeControl "~3s/move Stockfish; Julia search budget 3.0s"]
+[Termination "Stockfish 19 wins — checkmate."]
+[Opening "Sicilian Defense"]
+
+3... d5 4. Nf3 Qd6 5. Nc3 Bg4 6. Qb3 e4 7. Qxb7 Qc6 8. Qxc6+ Nxc6 9. dxe4 dxc4 10. Bf4 Kd8 11. e3 Na5 12. h3 Bc8 13. Rd1+ Ke7 14. Nd4 c6 15. Bc7 c5 16. Ndb5 Nb7 17. Be2 Bd7 18. Bxc4 Bc6 19. O-O Bxe4 20. Nd6 Bc6 21. Nxb7 Rc8 22. Bd8+ Ke8 23. Bb5 h6 24. Bxf6 gxf6 25. Rfe1 Ke7 26. Na5 Bxb5 27. Nxb5 Rg8 28. Nxa7 Ra8 29. a3 Rg6 30. e4 Rg7 31. N7c6+ Ke6 32. b4 Ra6 33. b5 Rb6 34. Nd8+ Ke7 35. Ndb7 Ke6 36. Rd2 Be7 37. Nc6 Rxb7 38. a4 Rd7 39. Rc2 Rc7 40. Rd2 Rd7 41. Red1 Rc7 42. a5 c4 43. Rd5 Rxc6 44. bxc6 Rh7 45. c7 Rh8 46. a6 Rc8 47. a7 c3 48. Rc1 f5 49. Rdd1 Bf6 50. Ra1 Be5 51. Rd8 Rxc7 52. Ra6+ Ke7 53. a8=Q f6 54. Rg8 Rc8 55. Rxc8 Kf7 56. Qd5+ Kg6 57. Qxe5 Kg7 58. Qe7+ Kg6 59. Qxf6+ Kh5 60. Qxh6# 1-0
+

@@ -1,0 +1,30 @@
+[Event "Julia Chess Paired-Opening Benchmark"]
+[Site "Local API"]
+[Date "2026.10.03"]
+[Round "7.1"]
+[White "Julia"]
+[Black "Stockfish 19 (UCI_Elo 1560)"]
+[Result "1/2-1/2"]
+[FEN "rnbqkb1r/ppp1pppp/5n2/3p4/3P4/5N2/PPP1PPPP/RNBQKB1R w KQkq - 2 3"]
+[SetUp "1"]
+[TimeControl "~3s/move Stockfish; Julia search budget 3.0s"]
+[Termination "Draw — benchmark adjudication at 120 plies after opening setup."]
+[Opening "Queens Pawn"]
+
+3. Bd2 e6 4. Nc3 c5 5. Bg5 Qb6 6. e3 Nc6 7. b3 cxd4 8. exd4 Bb4 9. Qd3 e5 10. Nxe5 Qxd4 11. Kd1 Qxd3+ 12. Nxd3 Bxc3 13. Rc1 Ne7 14. Bd2 Ne4 15. Bxc3 Nxc3+ 16. Kd2 d4 17. a4 Ne4+ 18. Ke1 Kd8 19. Be2 Nc6 20. Rd1 Bd7 21. Kf1 Kc7 22. Re1 Rae8 23. Ra1 Nc3 24. Re1 Bf5 25. g4 Rxe2 26. Rxe2 Be4 27. Rg1 Nxe2 28. Kxe2 Kd6 29. Rb1 f5 30. Kd2 Bxd3 31. Kxd3 Nb4+ 32. Kxd4 Rc8 33. gxf5 Rc7 34. Rd1 Rxc2 35. h3 a5 36. f3 Rc5 37. Rb1 Nc6+ 38. Ke3 Rxf5 39. Rc1 Rh5 40. Rb1 Kc7 41. Rc1 Kd7 42. Rc2 Rh4 43. Rb2 Ke6 44. Rg2 g6 45. Rf2 Rb4 46. Rb2 h6 47. Kd2 Ke5 48. Kc1 Nd4 49. Kd2 Ke6 50. Kc3 Kd5 51. Kd3 Rxb3+ 52. Rxb3 Nxb3 53. Kc3 Nc5 54. Kc2 Kc4 55. Kd2 Nxa4 56. Kc2 b5 57. Kd1 b4 58. Kc2 h5 59. Kd1 b3 60. f4 Kd3 61. Kc1 b2+ 62. Kb1 h4 63. f5 1/2-1/2
+
+[Event "Julia Chess Paired-Opening Benchmark"]
+[Site "Local API"]
+[Date "2026.10.03"]
+[Round "7.2"]
+[White "Stockfish 19 (UCI_Elo 1560)"]
+[Black "Julia"]
+[Result "1-0"]
+[FEN "rnbqkb1r/ppp1pppp/5n2/3p4/3P4/5N2/PPP1PPPP/RNBQKB1R b KQkq - 2 3"]
+[SetUp "1"]
+[TimeControl "~3s/move Stockfish; Julia search budget 3.0s"]
+[Termination "Stockfish 19 wins — checkmate."]
+[Opening "Queens Pawn"]
+
+3... e6 4. c4 Bb4+ 5. Nfd2 Qe7 6. a3 Bd6 7. b4 Ng4 8. e4 Nxh2 9. c5 Bf4 10. Bd3 Kf8 11. g3 Bxd2+ 12. Nxd2 dxe4 13. Nxe4 Nc6 14. Rxh2 Qd8 15. Ng5 Ke7 16. Bb2 f6 17. Nxh7 a6 18. Qg4 Rg8 19. Bc4 Qe8 20. f4 Qd8 21. Rd1 a5 22. d5 exd5 23. f5 Ne5 24. Bxe5 fxe5 25. Re2 c6 26. Rxe5+ Kd7 27. Qf4 Qe8 28. b5 Qf7 29. Bxd5 cxd5 30. a4 Re8 31. Kf1 Rxe5 32. Qxe5 Qe7 33. Qxd5+ Kc7 34. Re1 Be6 35. Rxe6 Qxe6 36. fxe6 Rd8 37. Qf5 Kb8 38. e7 Rd1+ 39. Ke2 Ka7 40. Kxd1 b6 41. Qf7 Ka8 42. c6 g6 43. e8=R# 1-0
+

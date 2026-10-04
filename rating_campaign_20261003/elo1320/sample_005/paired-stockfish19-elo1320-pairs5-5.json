@@ -1,0 +1,39 @@
+{
+  "stockfish": {
+    "name": "Stockfish 19",
+    "author": "the Stockfish developers (see AUTHORS file)"
+  },
+  "stockfish_uci_elo": 1320,
+  "stockfish_move_time_seconds": 3.0,
+  "julia_configuration": "current server model/search; three seconds search budget",
+  "protocol": "fixed opening positions, each played twice with colors swapped; adjudicated draw after 120 plies from setup FEN",
+  "pairs": 5,
+  "games": [
+    {
+      "pair": 5,
+      "round": 1,
+      "opening": "English Opening",
+      "julia_color": "White",
+      "start_fen": "r1bqkbnr/pppp1ppp/2n5/4p3/2P5/5N2/PP1PPPPP/RNBQKB1R w KQkq - 2 3",
+      "result": "1-0",
+      "score_julia": 1.0,
+      "termination": "Julia wins \u2014 checkmate.",
+      "plies": 81,
+      "seconds": 198.03
+    },
+    {
+      "pair": 5,
+      "round": 2,
+      "opening": "English Opening",
+      "julia_color": "Black",
+      "start_fen": "rnbqkb1r/pp1ppppp/5n2/2p5/4P3/2N5/PPPP1PPP/R1BQKBNR b KQkq - 2 3",
+      "result": "1/2-1/2",
+      "score_julia": 0.5,
+      "termination": "Draw \u2014 benchmark adjudication at 120 plies after opening setup.",
+      "plies": 121,
+      "seconds": 318.15
+    }
+  ],
+  "score_fraction": 0.75,
+  "pgn_file": "C:\\Users\\lmao\\Downloads\\jev-bot\\jev-bot\\xadrez\\rating_campaign_20261003\\elo1320\\sample_005\\paired-stockfish19-elo1320-pairs5-5.pgn"
+}

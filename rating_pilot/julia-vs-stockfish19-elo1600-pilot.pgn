@@ -1,0 +1,36 @@
+[Event "Julia Chess Rating Pilot"]
+[Site "Local API"]
+[Date "2026.10.02"]
+[Round "1"]
+[White "Stockfish 19 (UCI_Elo 1600)"]
+[Black "Julia (current model + search configuration)"]
+[Result "1-0"]
+[TimeControl "~3s/move Stockfish; Julia server default"]
+[Termination "ChatGPT wins — checkmate."]
+
+1. e4 e5 2. d4 exd4 3. Ne2 Bc5 4. a3 Nf6 5. b4 Bb6 6. c4 dxc3 7. Nbxc3 Nc6 8. Ng3 Rg8 9. Bb2 d6 10. Nd5 Be6 11. Rc1 Rf8 12. Bxf6 gxf6 13. Bb5 Qb8 14. Qf3 Kd8 15. O-O Bd7 16. Rfd1 Be8 17. Qxf6+ Kc8 18. Nf5 h5 19. a4 h4 20. Qg7 Kd8 21. Qxf8 Qc8 22. Nxd6 cxd6 23. Rxc6 Qxc6 24. Bxc6 bxc6 25. Nxb6 axb6 26. Rxd6+ Kc7 27. Qe7+ Kc8 28. Qxe8+ Kc7 29. Rd7# 1-0
+
+[Event "Julia Chess Rating Pilot"]
+[Site "Local API"]
+[Date "2026.10.02"]
+[Round "2"]
+[White "Stockfish 19 (UCI_Elo 1600)"]
+[Black "Julia (current model + search configuration)"]
+[Result "1/2-1/2"]
+[TimeControl "~3s/move Stockfish; Julia server default"]
+[Termination "Draw — threefold repetition."]
+
+1. d4 d5 2. Nd2 e6 3. e4 dxe4 4. Qe2 Nc6 5. c3 Qh4 6. a4 Bd7 7. g3 Qf6 8. b4 Qf5 9. Nxe4 Nf6 10. Nxf6+ Qxf6 11. Bg2 Rd8 12. b5 Na5 13. Ra2 Bd6 14. Rc2 Rf8 15. Nh3 Rc8 16. O-O c5 17. Bg5 Qf5 18. Bf4 cxd4 19. g4 Qc5 20. Bxd6 Qxd6 21. cxd4 Rd8 22. d5 a6 23. Ng5 h6 24. dxe6 Bxe6 25. Nxe6 Qxe6 26. Qf3 Kd7 27. bxa6 bxa6 28. Qc3 Qc4 29. Qxc4 Nxc4 30. Rxc4 Ke6 31. Rf4 Kd6 32. h4 Kc7 33. Rb4 Rb8 34. Rf4 Rbd8 35. Rc1+ Kd6 36. Rf5 Ke6 37. Bf3 Rd2 38. Rc6+ Kd7 39. Rb6 Rd4 40. Ra5 Rf4 41. Rb3 Kd6 42. Kg2 Rc8 43. Kg3 Rd4 44. Rxa6+ Kc7 45. Ra7+ Kd6 46. Rb6+ Kc5 47. a5 Ra4 48. Rd7 Rxa5 49. Rb1 Rca8 50. Rc7+ Kd6 51. Rbb7 Rh8 52. Rxf7 g6 53. Rb6+ Kc5 54. Rfb7 Kd4 55. Rc6 Rha8 56. Rb1 R8a7 57. Rb4+ Ke5 58. Re4+ Kd5 59. Rec4+ Ke5 60. Rb4 h5 61. Bg2 g5 62. hxg5 Ra3+ 63. Kh4 Rf3 64. Bxf3 Rd7 65. Re4+ Kd5 66. Rb4+ Ke5 67. Re4+ Kd5 68. Re2+ Kd4 69. Re4+ 1/2-1/2
+
+[Event "Julia Chess Rating Pilot"]
+[Site "Local API"]
+[Date "2026.10.02"]
+[Round "3"]
+[White "Stockfish 19 (UCI_Elo 1600)"]
+[Black "Julia (current model + search configuration)"]
+[Result "1-0"]
+[TimeControl "~3s/move Stockfish; Julia server default"]
+[Termination "ChatGPT wins — checkmate."]
+
+1. Nf3 d6 2. e4 Nf6 3. Bd3 Nbd7 4. Qe2 e5 5. Nc3 a6 6. a4 Qe7 7. Kd1 Ra7 8. Qe3 Nb6 9. a5 Ng4 10. Qe2 Nd7 11. Nd5 Qd8 12. c3 h6 13. Bb1 c6 14. Ne3 Ngf6 15. d4 Ke7 16. b4 Qc7 17. Nc4 Ke8 18. dxe5 dxe5 19. Bc2 Kd8 20. Be3 c5 21. Ba4 Nxe4 22. Qc2 f5 23. Qd3 Ke7 24. Bxd7 Qxd7 25. Qxd7+ Kxd7 26. Re1 Ke7 27. Nfxe5 Kf6 28. Kc2 Be6 29. f3 f4 30. Bxf4 Nf2 31. Be3 Kf5 32. bxc5 Ra8 33. Bxf2 Rb8 34. Rad1 Rh7 35. Nd7 Bxd7 36. Re5+ Kg6 37. Rxd7 Rh8 38. Re4 Kf5 39. Re1 Kg6 40. Ne5+ Kf5 41. g4+ Ke6 42. f4 g6 43. Rf7 Bxc5 44. f5+ Kd5 45. c4+ Kd6 46. Rd7# 1-0
+
